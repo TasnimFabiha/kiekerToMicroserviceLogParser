@@ -14,7 +14,7 @@ from ProjectProcessor import ProjectProcessor
 # writer.write_methods(node_info, methods)
 
 
-projects = ["jpetstore", "roller"]
+projects = ["jpetstore", "petclinic", "roller", "jforum", "edition"]
 base_path = "./data"
 
 processors = [ProjectProcessor(project, base_path) for project in projects]

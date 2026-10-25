@@ -1,0 +1,1131 @@
+digraph G {
+ rankdir=LR;
+"depNode_0" [label="'Entry'",shape="none"]
+subgraph "cluster_component_1" {
+ label = "<<assembly component>>\n@1:pt.ist.socialsoftware.edition.ldod.frontend.filters.TransactionFilter$callable$doFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_2" {
+ label = "<<assembly component>>\n@2:pt.ist.socialsoftware.edition.ldod.frontend.config.Application$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_3" {
+ label = "<<assembly component>>\n@3:pt.ist.socialsoftware.edition.ldod.frontend.user.SigninController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_8" [label="signin()\nmin: 4958ns, avg: 14694ns, max: 72041ns,\ntotal: 176332ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_4" {
+ label = "<<assembly component>>\n@4:pt.ist.socialsoftware.edition.ldod.frontend.config.HttpSessionConfig$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_5" {
+ label = "<<assembly component>>\n@5:pt.ist.socialsoftware.edition.ldod.frontend.filters.SimpleCORSFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_6" [label="doFilter(..)\nmin: 411625ns, avg: 8531504ns, max: 650211708ns,\ntotal: 2602108593ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_6" {
+ label = "<<assembly component>>\n@6:pt.ist.socialsoftware.edition.ldod.frontend.filters.TransactionFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_2" [label="doFilter(..)\nmin: 883042ns, avg: 9266067ns, max: 651084708ns,\ntotal: 2826150553ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_7" {
+ label = "<<assembly component>>\n@7:pt.ist.socialsoftware.edition.ldod.frontend.filters.JWTAuthorizationFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_1" [label="doFilterInternal(..)\nmin: 890917ns, avg: 9313077ns, max: 651174917ns,\ntotal: 2840488617ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_8" {
+ label = "<<assembly component>>\n@8:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleUserDetailsService$callable$loadUserByUsername$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_9" {
+ label = "<<assembly component>>\n@9:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleUserDetailsService$callable$loadUserByUsername";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_10" {
+ label = "<<assembly component>>\n@10:pt.ist.socialsoftware.edition.user.domain.UserModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_19" [label="getInstance()\nmin: 0ns, avg: 253ns, max: 10500ns,\ntotal: 154842ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_43" [label="getUser(..)\nmin: 500ns, avg: 2453ns, max: 65958ns,\ntotal: 1363792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_152" [label="createUser(..)\nmin: 111143417ns, avg: 111143417ns, max: 111143417ns,\ntotal: 111143417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_156" [label="removeOutdatedUnconfirmedUsers()\nmin: 357792ns, avg: 357792ns, max: 357792ns,\ntotal: 357792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_247" [label="getTokenSet(..)\nmin: 203708ns, avg: 203708ns, max: 203708ns,\ntotal: 203708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_313" [label="switchAdmin()\nmin: 2614583ns, avg: 2751959ns, max: 2889334ns,\ntotal: 5503917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_11" {
+ label = "<<assembly component>>\n@11:pt.ist.socialsoftware.edition.user.domain.User_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_12" {
+ label = "<<assembly component>>\n@12:pt.ist.socialsoftware.edition.user.domain.UserModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_13" {
+ label = "<<assembly component>>\n@13:pt.ist.socialsoftware.edition.user.api.UserProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_18" [label="getUsersSet()\nmin: 16000ns, avg: 71113ns, max: 668625ns,\ntotal: 1208919ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_25" [label="<init>()\nmin: 0ns, avg: 57ns, max: 11084ns,\ntotal: 30040ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_39" [label="getAdmin()\nmin: 375ns, avg: 1911ns, max: 9417ns,\ntotal: 53503ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_42" [label="hasRoleTypeAdmin(..)\nmin: 15875ns, avg: 83467ns, max: 261791ns,\ntotal: 417333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_54" [label="getRolesFromUser(..)\nmin: 10708ns, avg: 48972ns, max: 214500ns,\ntotal: 293832ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_71" [label="setUserLastLogin(..)\nmin: 16459ns, avg: 62903ns, max: 230750ns,\ntotal: 377418ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_72" [label="getUserByUsername(..)\nmin: 1625ns, avg: 15125ns, max: 38875ns,\ntotal: 105875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_123" [label="getUser(..)\nmin: 750ns, avg: 6288ns, max: 63875ns,\ntotal: 2974323ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_151" [label="createUser(..)\nmin: 111166791ns, avg: 111166791ns, max: 111166791ns,\ntotal: 111166791ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_197" [label="createRegistrationToken(..)\nmin: 4473625ns, avg: 4473625ns, max: 4473625ns,\ntotal: 4473625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_246" [label="requestAuthorization(..)\nmin: 498550666ns, avg: 498550666ns, max: 498550666ns,\ntotal: 498550666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_263" [label="getUserListofRoleAsStrings(..)\nmin: 3750ns, avg: 19155ns, max: 267500ns,\ntotal: 555503ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_267" [label="getUserLastLogin(..)\nmin: 958ns, avg: 3309ns, max: 38292ns,\ntotal: 95959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_271" [label="getUserFromExternalId(..)\nmin: 13000ns, avg: 22156ns, max: 33500ns,\ntotal: 88625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_273" [label="switchUserActive(..)\nmin: 2763500ns, avg: 2815979ns, max: 2868458ns,\ntotal: 5631958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_286" [label="hasRoleTypeUser(..)\nmin: 31959ns, avg: 31959ns, max: 31959ns,\ntotal: 31959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_304" [label="updateUserInfo(..)\nmin: 109835334ns, avg: 109835334ns, max: 109835334ns,\ntotal: 109835334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_312" [label="switchAdmin()\nmin: 2621958ns, avg: 2761354ns, max: 2900750ns,\ntotal: 5522708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_326" [label="exportXMLUsers()\nmin: 705750ns, avg: 705750ns, max: 705750ns,\ntotal: 705750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_359" [label="updatePassword(..)\nmin: 207526334ns, avg: 207526334ns, max: 207526334ns,\ntotal: 207526334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_366" [label="removeUser(..)\nmin: 4949625ns, avg: 4949625ns, max: 4949625ns,\ntotal: 4949625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_14" {
+ label = "<<assembly component>>\n@14:pt.ist.socialsoftware.edition.user.api.dto.UserDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_24" [label="<init>(..)\nmin: 792ns, avg: 2839ns, max: 48917ns,\ntotal: 1430824ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_27" [label="setUsername(..)\nmin: 0ns, avg: 38ns, max: 583ns,\ntotal: 19047ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_35" [label="getUsername()\nmin: 0ns, avg: 56ns, max: 375ns,\ntotal: 6794ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_36" [label="isEnabled()\nmin: 0ns, avg: 64ns, max: 417ns,\ntotal: 2834ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_37" [label="isActive()\nmin: 0ns, avg: 50ns, max: 125ns,\ntotal: 2083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_41" [label="hasRoleTypeAdmin()\nmin: 16334ns, avg: 84808ns, max: 266083ns,\ntotal: 424042ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_53" [label="getRolesSet()\nmin: 11000ns, avg: 50000ns, max: 218250ns,\ntotal: 299999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_58" [label="getPassword()\nmin: 0ns, avg: 61ns, max: 292ns,\ntotal: 794ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_63" [label="getExternalId()\nmin: 0ns, avg: 58ns, max: 375ns,\ntotal: 5376ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_124" [label="getFirstName()\nmin: 0ns, avg: 33ns, max: 208ns,\ntotal: 9503ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_125" [label="getLastName()\nmin: 0ns, avg: 35ns, max: 208ns,\ntotal: 8016ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_196" [label="createRegistrationToken(..)\nmin: 4477917ns, avg: 4477917ns, max: 4477917ns,\ntotal: 4477917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_261" [label="getEmail()\nmin: 0ns, avg: 35ns, max: 125ns,\ntotal: 1042ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_262" [label="getListOfRolesAsStrings()\nmin: 4000ns, avg: 19865ns, max: 271834ns,\ntotal: 576088ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_266" [label="getLastLogin()\nmin: 1166ns, avg: 3688ns, max: 39042ns,\ntotal: 106957ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_272" [label="switchActive()\nmin: 2767125ns, avg: 2818355ns, max: 2869584ns,\ntotal: 5636709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_285" [label="hasRoleTypeUser()\nmin: 35959ns, avg: 35959ns, max: 35959ns,\ntotal: 35959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_303" [label="update(..)\nmin: 109840791ns, avg: 109840791ns, max: 109840791ns,\ntotal: 109840791ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_358" [label="updatePassword(..)\nmin: 207531375ns, avg: 207531375ns, max: 207531375ns,\ntotal: 207531375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_365" [label="removeUser()\nmin: 4953500ns, avg: 4953500ns, max: 4953500ns,\ntotal: 4953500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_15" {
+ label = "<<assembly component>>\n@15:pt.ist.socialsoftware.edition.ldod.frontend.user.FeUserRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_17" [label="getUsersSet()\nmin: 17083ns, avg: 72502ns, max: 672125ns,\ntotal: 1232541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_38" [label="getAdmin()\nmin: 500ns, avg: 2436ns, max: 10792ns,\ntotal: 68208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_60" [label="<init>()\nmin: 2292ns, avg: 3677ns, max: 5917ns,\ntotal: 29416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_70" [label="setLastLogin(..)\nmin: 17541ns, avg: 64729ns, max: 236000ns,\ntotal: 388375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_122" [label="getUser(..)\nmin: 791ns, avg: 6564ns, max: 65875ns,\ntotal: 3104627ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_150" [label="createUser(..)\nmin: 111172958ns, avg: 111172958ns, max: 111172958ns,\ntotal: 111172958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_270" [label="getUserFromExternalId(..)\nmin: 14125ns, avg: 24125ns, max: 37750ns,\ntotal: 96500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_311" [label="switchAdmin()\nmin: 2625333ns, avg: 2764104ns, max: 2902875ns,\ntotal: 5528208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_325" [label="exportXMLUsers()\nmin: 708500ns, avg: 708500ns, max: 708500ns,\ntotal: 708500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_16" {
+ label = "<<assembly component>>\n@16:pt.ist.socialsoftware.edition.user.domain.Role_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_17" {
+ label = "<<assembly component>>\n@17:pt.ist.socialsoftware.edition.user.domain.Role";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_47" [label="getRole(..)\nmin: 4334ns, avg: 28255ns, max: 126541ns,\ntotal: 226041ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_18" {
+ label = "<<assembly component>>\n@18:pt.ist.socialsoftware.edition.ldod.frontend.user.security.GrantedAuthorityImpl";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_57" [label="<init>(..)\nmin: 0ns, avg: 163ns, max: 1375ns,\ntotal: 1790ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_128" [label="getAuthority()\nmin: 0ns, avg: 39ns, max: 250ns,\ntotal: 7541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_19" {
+ label = "<<assembly component>>\n@19:pt.ist.socialsoftware.edition.text.api.TextProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_61" [label="<init>()\nmin: 0ns, avg: 51ns, max: 292ns,\ntotal: 917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_20" {
+ label = "<<assembly component>>\n@20:pt.ist.socialsoftware.edition.virtual.api.VirtualProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_62" [label="<init>()\nmin: 0ns, avg: 39ns, max: 125ns,\ntotal: 709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_86" [label="getSelectedVirtualEditionsByUser(..)\nmin: 25333ns, avg: 112201ns, max: 540583ns,\ntotal: 673207ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_21" {
+ label = "<<assembly component>>\n@21:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleUserDetails";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_59" [label="<init>(..)\nmin: 3042ns, avg: 5181ns, max: 13041ns,\ntotal: 31083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_68" [label="getAuthenticatedUser()\nmin: 83ns, avg: 872ns, max: 7250ns,\ntotal: 12207ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_69" [label="getUsername()\nmin: 0ns, avg: 101ns, max: 833ns,\ntotal: 59402ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_115" [label="isAccountNonLocked()\nmin: 42ns, avg: 83ns, max: 125ns,\ntotal: 417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_116" [label="isEnabled()\nmin: 41ns, avg: 50ns, max: 83ns,\ntotal: 250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_117" [label="isAccountNonExpired()\nmin: 41ns, avg: 41ns, max: 42ns,\ntotal: 206ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_118" [label="getPassword()\nmin: 41ns, avg: 67ns, max: 84ns,\ntotal: 333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_119" [label="isCredentialsNonExpired()\nmin: 41ns, avg: 392ns, max: 625ns,\ntotal: 1958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_120" [label="getAuthorities()\nmin: 0ns, avg: 47ns, max: 167ns,\ntotal: 3581ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_121" [label="getUser()\nmin: 917ns, avg: 6803ns, max: 67667ns,\ntotal: 3197287ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_126" [label="hasRole(..)\nmin: 4625ns, avg: 11056ns, max: 25000ns,\ntotal: 785002ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_22" {
+ label = "<<assembly component>>\n@22:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleUserDetailsService";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_13" [label="loadUserByUsername(..)\nmin: 132750ns, avg: 703111ns, max: 3357708ns,\ntotal: 4218666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_23" {
+ label = "<<assembly component>>\n@23:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleAuthenticationSuccessHandler$callable$onAuthenticationSuccess";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_24" {
+ label = "<<assembly component>>\n@24:pt.ist.socialsoftware.edition.user.domain.User_Base$DO_State";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_25" {
+ label = "<<assembly component>>\n@25:pt.ist.socialsoftware.edition.notification.event.EventInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_79" [label="getInstance()\nmin: 0ns, avg: 72ns, max: 208ns,\ntotal: 790ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_80" [label="subscribe(..)\nmin: 250ns, avg: 559ns, max: 959ns,\ntotal: 5585ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_372" [label="publish(..)\nmin: 1656333ns, avg: 1656333ns, max: 1656333ns,\ntotal: 1656333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_26" {
+ label = "<<assembly component>>\n@26:pt.ist.socialsoftware.edition.ldod.frontend.user.session.SessionRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_78" [label="<init>()\nmin: 2917ns, avg: 4938ns, max: 8958ns,\ntotal: 49377ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_85" [label="getSelectedVirtualEditionsByUser(..)\nmin: 26000ns, avg: 113875ns, max: 547667ns,\ntotal: 683249ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_373" [label="notify(..)\nmin: 375ns, avg: 542ns, max: 1250ns,\ntotal: 8664ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_27" {
+ label = "<<assembly component>>\n@27:pt.ist.socialsoftware.edition.recommendation.api.RecommendationProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_83" [label="<init>()\nmin: 0ns, avg: 29ns, max: 125ns,\ntotal: 291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_28" {
+ label = "<<assembly component>>\n@28:pt.ist.socialsoftware.edition.ldod.frontend.reading.FeReadingRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_82" [label="<init>()\nmin: 1708ns, avg: 2246ns, max: 6042ns,\ntotal: 22460ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_29" {
+ label = "<<assembly component>>\n@29:pt.ist.socialsoftware.edition.ldod.frontend.reading.ReadingRecommendation";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_81" [label="<init>()\nmin: 2625ns, avg: 3758ns, max: 11500ns,\ntotal: 37584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_30" {
+ label = "<<assembly component>>\n@30:pt.ist.socialsoftware.edition.ldod.frontend.user.session.FrontendSession";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_77" [label="<init>()\nmin: 7666ns, avg: 44463ns, max: 353500ns,\ntotal: 444627ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_84" [label="updateSession(..)\nmin: 28000ns, avg: 131132ns, max: 639834ns,\ntotal: 786793ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_111" [label="getFrontendSession()\nmin: 1250ns, avg: 5314ns, max: 22875ns,\ntotal: 159419ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_113" [label="getSelectedVEAcr()\nmin: 0ns, avg: 83ns, max: 500ns,\ntotal: 8128ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_130" [label="addSelectedVE(..)\nmin: 167ns, avg: 768ns, max: 2042ns,\ntotal: 12292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_31" {
+ label = "<<assembly component>>\n@31:pt.ist.socialsoftware.edition.virtual.domain.VirtualModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_87" [label="getInstance()\nmin: 334ns, avg: 1387ns, max: 5750ns,\ntotal: 9709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_88" [label="getUserSelectedVirtualEditions(..)\nmin: 22417ns, avg: 107160ns, max: 524000ns,\ntotal: 642958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_32" {
+ label = "<<assembly component>>\n@32:pt.ist.socialsoftware.edition.virtual.domain.VirtualModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_33" {
+ label = "<<assembly component>>\n@33:pt.ist.socialsoftware.edition.virtual.domain.VirtualEdition_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_34" {
+ label = "<<assembly component>>\n@34:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleAuthenticationSuccessHandler";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_64" [label="onAuthenticationSuccess(..)\nmin: 2079833ns, avg: 2964757ns, max: 5927125ns,\ntotal: 17788542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_35" {
+ label = "<<assembly component>>\n@35:pt.ist.socialsoftware.edition.ldod.frontend.HomeController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_110" [label="getLdoDSession()\nmin: 3500ns, avg: 9321ns, max: 23667ns,\ntotal: 279624ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_112" [label="showHome(..)\nmin: 0ns, avg: 236ns, max: 2083ns,\ntotal: 7083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_36" {
+ label = "<<assembly component>>\n@36:pt.ist.socialsoftware.edition.ldod.frontend.utils.controller.NotFoundController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_114" [label="handlePageNotFound()\nmin: 1250ns, avg: 3549ns, max: 18208ns,\ntotal: 173922ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_37" {
+ label = "<<assembly component>>\n@37:pt.ist.socialsoftware.edition.ldod.frontend.user.forms.SignupForm";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_132" [label="<init>()\nmin: 250ns, avg: 292ns, max: 333ns,\ntotal: 583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_133" [label="getSocialMediaService()\nmin: 0ns, avg: 160ns, max: 541ns,\ntotal: 957ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_134" [label="getSocialMediaId()\nmin: 42ns, avg: 97ns, max: 250ns,\ntotal: 584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_135" [label="getFirstName()\nmin: 41ns, avg: 89ns, max: 291ns,\ntotal: 625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_136" [label="getLastName()\nmin: 0ns, avg: 77ns, max: 250ns,\ntotal: 541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_137" [label="getUsername()\nmin: 42ns, avg: 89ns, max: 250ns,\ntotal: 626ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_138" [label="getPassword()\nmin: 42ns, avg: 125ns, max: 250ns,\ntotal: 750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_139" [label="getEmail()\nmin: 41ns, avg: 101ns, max: 250ns,\ntotal: 707ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_140" [label="isConduct()\nmin: 42ns, avg: 139ns, max: 333ns,\ntotal: 833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_141" [label="setConduct(..)\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_142" [label="setEmail(..)\nmin: 167ns, avg: 167ns, max: 167ns,\ntotal: 167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_143" [label="setFirstName(..)\nmin: 167ns, avg: 167ns, max: 167ns,\ntotal: 167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_144" [label="setLastName(..)\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_145" [label="setPassword(..)\nmin: 84ns, avg: 84ns, max: 84ns,\ntotal: 84ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_146" [label="setSocialMediaId(..)\nmin: 41ns, avg: 41ns, max: 41ns,\ntotal: 41ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_147" [label="setSocialMediaService(..)\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_148" [label="setUsername(..)\nmin: 42ns, avg: 42ns, max: 42ns,\ntotal: 42ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_38" {
+ label = "<<assembly component>>\n@38:pt.ist.socialsoftware.edition.ldod.frontend.user.SignupController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_131" [label="signupForm(..)\nmin: 599208ns, avg: 599208ns, max: 599208ns,\ntotal: 599208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_149" [label="signup(..)\nmin: 614474500ns, avg: 614474500ns, max: 614474500ns,\ntotal: 614474500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_39" {
+ label = "<<assembly component>>\n@39:pt.ist.socialsoftware.edition.user.domain.UserModule$callable$createUser";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_40" {
+ label = "<<assembly component>>\n@40:pt.ist.socialsoftware.edition.user.domain.User_Base$3";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_41" {
+ label = "<<assembly component>>\n@41:pt.ist.socialsoftware.edition.user.domain.UserModule_Base$5";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_42" {
+ label = "<<assembly component>>\n@42:pt.ist.socialsoftware.edition.user.domain.User";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_163" [label="<init>(..)\nmin: 72750ns, avg: 72750ns, max: 72750ns,\ntotal: 72750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_173" [label="setUsername(..)\nmin: 39750ns, avg: 39750ns, max: 39750ns,\ntotal: 39750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_174" [label="checkUniqueUsername(..)\nmin: 20250ns, avg: 20250ns, max: 20250ns,\ntotal: 20250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_178" [label="setFirstName(..)\nmin: 13292ns, avg: 21896ns, max: 30500ns,\ntotal: 43792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_180" [label="setLastName(..)\nmin: 4042ns, avg: 5459ns, max: 6875ns,\ntotal: 10917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_198" [label="createRegistrationToken(..)\nmin: 4288250ns, avg: 4288250ns, max: 4288250ns,\ntotal: 4288250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_264" [label="getListOfRolesAsStrings()\nmin: 1791ns, avg: 16017ns, max: 256709ns,\ntotal: 464502ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_274" [label="switchActive()\nmin: 2743166ns, avg: 2768146ns, max: 2793125ns,\ntotal: 5536291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_305" [label="update(..)\nmin: 109826750ns, avg: 109826750ns, max: 109826750ns,\ntotal: 109826750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_360" [label="updatePassword(..)\nmin: 207251917ns, avg: 207251917ns, max: 207251917ns,\ntotal: 207251917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_367" [label="remove()\nmin: 4938542ns, avg: 4938542ns, max: 4938542ns,\ntotal: 4938542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_43" {
+ label = "<<assembly component>>\n@43:pt.ist.socialsoftware.edition.user.domain.User_Base$4";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_44" {
+ label = "<<assembly component>>\n@44:pt.ist.socialsoftware.edition.user.domain.User_Base$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_45" {
+ label = "<<assembly component>>\n@45:pt.ist.socialsoftware.edition.user.domain.Role_Base$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_46" {
+ label = "<<assembly component>>\n@46:pt.ist.socialsoftware.edition.user.domain.User$callable$createRegistrationToken";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_47" {
+ label = "<<assembly component>>\n@47:pt.ist.socialsoftware.edition.user.domain.RegistrationToken_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_48" {
+ label = "<<assembly component>>\n@48:pt.ist.socialsoftware.edition.user.domain.RegistrationToken_Base$DO_State";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_49" {
+ label = "<<assembly component>>\n@49:pt.ist.socialsoftware.edition.user.domain.User_Base$2";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_50" {
+ label = "<<assembly component>>\n@50:pt.ist.socialsoftware.edition.user.domain.RegistrationToken_Base$2";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_51" {
+ label = "<<assembly component>>\n@51:pt.ist.socialsoftware.edition.user.domain.UserModule_Base$4";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_52" {
+ label = "<<assembly component>>\n@52:pt.ist.socialsoftware.edition.user.domain.RegistrationToken_Base$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_53" {
+ label = "<<assembly component>>\n@53:pt.ist.socialsoftware.edition.user.domain.RegistrationToken";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_207" [label="<init>(..)\nmin: 1325459ns, avg: 1325459ns, max: 1325459ns,\ntotal: 1325459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_229" [label="setExpireTimeDateTime(..)\nmin: 9334ns, avg: 9334ns, max: 9334ns,\ntotal: 9334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_242" [label="getExpireTimeDateTime()\nmin: 11291ns, avg: 11291ns, max: 11291ns,\ntotal: 11291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_249" [label="requestAuthorization(..)\nmin: 498339666ns, avg: 498339666ns, max: 498339666ns,\ntotal: 498339666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_454" [label="remove()\nmin: 37958ns, avg: 37958ns, max: 37958ns,\ntotal: 37958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_54" {
+ label = "<<assembly component>>\n@54:pt.ist.socialsoftware.edition.user.api.dto.RegistrationTokenDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_240" [label="<init>(..)\nmin: 22375ns, avg: 22375ns, max: 22375ns,\ntotal: 22375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_245" [label="requestAuthorization(..)\nmin: 498556333ns, avg: 498556333ns, max: 498556333ns,\ntotal: 498556333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_55" {
+ label = "<<assembly component>>\n@55:pt.ist.socialsoftware.edition.user.utils.PropertiesManager";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_250" [label="getProperties()\nmin: 0ns, avg: 131ns, max: 416ns,\ntotal: 915ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_56" {
+ label = "<<assembly component>>\n@56:pt.ist.socialsoftware.edition.user.utils.Emailer";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_251" [label="sendEmail(..)\nmin: 492806584ns, avg: 492806584ns, max: 492806584ns,\ntotal: 492806584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_252" [label="setMailProperties()\nmin: 12916ns, avg: 12916ns, max: 12916ns,\ntotal: 12916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_253" [label="createMessage(..)\nmin: 11352125ns, avg: 11352125ns, max: 11352125ns,\ntotal: 11352125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_254" [label="sendMessage(..)\nmin: 478496750ns, avg: 478496750ns, max: 478496750ns,\ntotal: 478496750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_57" {
+ label = "<<assembly component>>\n@57:pt.ist.socialsoftware.edition.text.utils.LdoDException";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_255" [label="<init>(..)\nmin: 1125ns, avg: 1125ns, max: 1125ns,\ntotal: 1125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_257" [label="getMessage()\nmin: 42ns, avg: 157ns, max: 292ns,\ntotal: 626ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_58" {
+ label = "<<assembly component>>\n@58:pt.ist.socialsoftware.edition.ldod.frontend.utils.controller.LdoDExceptionHandler";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_256" [label="handleException(..)\nmin: 297875ns, avg: 297875ns, max: 297875ns,\ntotal: 297875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_59" {
+ label = "<<assembly component>>\n@59:pt.ist.socialsoftware.edition.ldod.frontend.user.UserAdminController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_258" [label="listUser(..)\nmin: 53250ns, avg: 142727ns, max: 696000ns,\ntotal: 1570000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_269" [label="activeUser(..)\nmin: 2825750ns, avg: 2862500ns, max: 2899250ns,\ntotal: 5725000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_278" [label="editUserForm(..)\nmin: 434375ns, avg: 434375ns, max: 434375ns,\ntotal: 434375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_300" [label="editUser(..)\nmin: 111356792ns, avg: 111356792ns, max: 111356792ns,\ntotal: 111356792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_310" [label="switchAdminMode()\nmin: 2651583ns, avg: 2784667ns, max: 2917750ns,\ntotal: 5569333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_324" [label="exportUsers(..)\nmin: 1065708ns, avg: 1065708ns, max: 1065708ns,\ntotal: 1065708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_364" [label="removeUser(..)\nmin: 4973834ns, avg: 4973834ns, max: 4973834ns,\ntotal: 4973834ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_466" [label="deleteUserSessons()\nmin: 34416ns, avg: 34416ns, max: 34416ns,\ntotal: 34416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_60" {
+ label = "<<assembly component>>\n@60:pt.ist.socialsoftware.edition.user.domain.User$callable$switchActive";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_61" {
+ label = "<<assembly component>>\n@61:pt.ist.socialsoftware.edition.ldod.frontend.user.forms.EditUserForm";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_279" [label="<init>()\nmin: 42ns, avg: 271ns, max: 500ns,\ntotal: 542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_280" [label="setOldUsername(..)\nmin: 292ns, avg: 438ns, max: 583ns,\ntotal: 875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_281" [label="setNewUsername(..)\nmin: 41ns, avg: 167ns, max: 292ns,\ntotal: 333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_282" [label="setFirstName(..)\nmin: 42ns, avg: 167ns, max: 292ns,\ntotal: 334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_283" [label="setLastName(..)\nmin: 42ns, avg: 167ns, max: 291ns,\ntotal: 333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_284" [label="setEmail(..)\nmin: 83ns, avg: 208ns, max: 333ns,\ntotal: 416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_287" [label="setUser(..)\nmin: 84ns, avg: 209ns, max: 333ns,\ntotal: 417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_288" [label="setAdmin(..)\nmin: 42ns, avg: 209ns, max: 375ns,\ntotal: 417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_289" [label="setEnabled(..)\nmin: 0ns, avg: 146ns, max: 292ns,\ntotal: 292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_290" [label="getOldUsername()\nmin: 0ns, avg: 54ns, max: 83ns,\ntotal: 375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_291" [label="getNewUsername()\nmin: 0ns, avg: 88ns, max: 250ns,\ntotal: 792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_292" [label="getFirstName()\nmin: 0ns, avg: 65ns, max: 125ns,\ntotal: 458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_293" [label="getLastName()\nmin: 0ns, avg: 36ns, max: 83ns,\ntotal: 250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_294" [label="getEmail()\nmin: 41ns, avg: 71ns, max: 125ns,\ntotal: 498ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_295" [label="isUser()\nmin: 0ns, avg: 42ns, max: 84ns,\ntotal: 292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_296" [label="isAdmin()\nmin: 42ns, avg: 60ns, max: 84ns,\ntotal: 418ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_297" [label="isEnabled()\nmin: 0ns, avg: 65ns, max: 125ns,\ntotal: 458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_298" [label="getNewPassword()\nmin: 0ns, avg: 62ns, max: 208ns,\ntotal: 374ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_299" [label="setNewPassword(..)\nmin: 167ns, avg: 167ns, max: 167ns,\ntotal: 167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_62" {
+ label = "<<assembly component>>\n@62:pt.ist.socialsoftware.edition.ldod.frontend.user.validator.EditUserValidator";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_301" [label="<init>()\nmin: 9792ns, avg: 9792ns, max: 9792ns,\ntotal: 9792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_302" [label="validate(..)\nmin: 42875ns, avg: 42875ns, max: 42875ns,\ntotal: 42875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_63" {
+ label = "<<assembly component>>\n@63:pt.ist.socialsoftware.edition.user.domain.User$callable$update";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_64" {
+ label = "<<assembly component>>\n@64:pt.ist.socialsoftware.edition.user.domain.UserModule$callable$switchAdmin";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_65" {
+ label = "<<assembly component>>\n@65:pt.ist.socialsoftware.edition.user.domain.UserModule_Base$DO_State";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_66" {
+ label = "<<assembly component>>\n@66:pt.ist.socialsoftware.edition.ldod.frontend.text.TextAdminController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_323" [label="exportForm(..)\nmin: 541ns, avg: 541ns, max: 541ns,\ntotal: 541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_67" {
+ label = "<<assembly component>>\n@67:pt.ist.socialsoftware.edition.user.feature.inout.UsersXMLExport";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_327" [label="<init>()\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_328" [label="export()\nmin: 701542ns, avg: 701542ns, max: 701542ns,\ntotal: 701542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_332" [label="createHeader()\nmin: 5916ns, avg: 5916ns, max: 5916ns,\ntotal: 5916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_333" [label="exportUsers(..)\nmin: 68333ns, avg: 68333ns, max: 68333ns,\ntotal: 68333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_334" [label="exportUser(..)\nmin: 7833ns, avg: 20375ns, max: 28542ns,\ntotal: 61125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_335" [label="exportBoolean(..)\nmin: 41ns, avg: 60ns, max: 84ns,\ntotal: 417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_337" [label="exportUserRoles(..)\nmin: 1167ns, avg: 3069ns, max: 5833ns,\ntotal: 9208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_338" [label="exportUserRole(..)\nmin: 500ns, avg: 1278ns, max: 2792ns,\ntotal: 3833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_339" [label="exportUserConnections(..)\nmin: 2459ns, avg: 2459ns, max: 2459ns,\ntotal: 2459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_343" [label="exportRegistrationTokens(..)\nmin: 25375ns, avg: 25375ns, max: 25375ns,\ntotal: 25375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_344" [label="exportRegistrationToken(..)\nmin: 17500ns, avg: 17500ns, max: 17500ns,\ntotal: 17500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_68" {
+ label = "<<assembly component>>\n@68:pt.ist.socialsoftware.edition.user.feature.inout.UsersXMLExport$callable$export";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_69" {
+ label = "<<assembly component>>\n@69:pt.ist.socialsoftware.edition.ldod.frontend.user.forms.ChangePasswordForm";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_346" [label="<init>()\nmin: 42ns, avg: 167ns, max: 291ns,\ntotal: 333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_347" [label="getCurrentPassword()\nmin: 42ns, avg: 119ns, max: 416ns,\ntotal: 833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_348" [label="getNewPassword()\nmin: 42ns, avg: 83ns, max: 250ns,\ntotal: 584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_349" [label="getRetypedPassword()\nmin: 0ns, avg: 76ns, max: 208ns,\ntotal: 457ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_350" [label="setCurrentPassword(..)\nmin: 125ns, avg: 125ns, max: 125ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_351" [label="setNewPassword(..)\nmin: 0ns, avg: 0ns, max: 0ns,\ntotal: 0ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_352" [label="setRetypedPassword(..)\nmin: 42ns, avg: 42ns, max: 42ns,\ntotal: 42ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_353" [label="getUsername()\nmin: 0ns, avg: 92ns, max: 333ns,\ntotal: 458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_354" [label="setUsername(..)\nmin: 125ns, avg: 125ns, max: 125ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_70" {
+ label = "<<assembly component>>\n@70:pt.ist.socialsoftware.edition.ldod.frontend.user.UserController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_345" [label="passwordForm()\nmin: 124250ns, avg: 124250ns, max: 124250ns,\ntotal: 124250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_355" [label="changePassword(..)\nmin: 310782542ns, avg: 310782542ns, max: 310782542ns,\ntotal: 310782542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_71" {
+ label = "<<assembly component>>\n@71:pt.ist.socialsoftware.edition.ldod.frontend.user.validator.ChangePasswordValidator";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_356" [label="<init>(..)\nmin: 9042ns, avg: 9042ns, max: 9042ns,\ntotal: 9042ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_357" [label="validate(..)\nmin: 102038709ns, avg: 102038709ns, max: 102038709ns,\ntotal: 102038709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_72" {
+ label = "<<assembly component>>\n@72:pt.ist.socialsoftware.edition.user.domain.User$callable$updatePassword";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_73" {
+ label = "<<assembly component>>\n@73:pt.ist.socialsoftware.edition.user.domain.User$callable$remove";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_74" {
+ label = "<<assembly component>>\n@74:pt.ist.socialsoftware.edition.notification.event.Event";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_371" [label="<init>(..)\nmin: 125ns, avg: 125ns, max: 125ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_374" [label="getType()\nmin: 0ns, avg: 42ns, max: 125ns,\ntotal: 1544ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_376" [label="getIdentifier()\nmin: 41ns, avg: 42ns, max: 42ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_75" {
+ label = "<<assembly component>>\n@75:pt.ist.socialsoftware.edition.recommendation.domain.RecommendationModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_377" [label="getInstance()\nmin: 1250ns, avg: 1250ns, max: 1250ns,\ntotal: 1250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_76" {
+ label = "<<assembly component>>\n@76:pt.ist.socialsoftware.edition.recommendation.domain.RecommendationWeights_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_77" {
+ label = "<<assembly component>>\n@77:pt.ist.socialsoftware.edition.recommendation.domain.RecommendationModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_78" {
+ label = "<<assembly component>>\n@78:pt.ist.socialsoftware.edition.recommendation.api.RecommendationRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_375" [label="notify(..)\nmin: 369958ns, avg: 369958ns, max: 369958ns,\ntotal: 369958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_79" {
+ label = "<<assembly component>>\n@79:pt.ist.socialsoftware.edition.virtual.api.VirtualRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_384" [label="notify(..)\nmin: 1057667ns, avg: 1057667ns, max: 1057667ns,\ntotal: 1057667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_80" {
+ label = "<<assembly component>>\n@80:pt.ist.socialsoftware.edition.virtual.domain.Member_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_81" {
+ label = "<<assembly component>>\n@81:pt.ist.socialsoftware.edition.virtual.domain.VirtualEdition_Base$3";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_82" {
+ label = "<<assembly component>>\n@82:pt.ist.socialsoftware.edition.virtual.domain.Member_Base$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_83" {
+ label = "<<assembly component>>\n@83:pt.ist.socialsoftware.edition.virtual.domain.Member_Base$DO_State";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_84" {
+ label = "<<assembly component>>\n@84:pt.ist.socialsoftware.edition.virtual.domain.Member";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_392" [label="remove()\nmin: 23917ns, avg: 23917ns, max: 23917ns,\ntotal: 23917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_85" {
+ label = "<<assembly component>>\n@85:pt.ist.socialsoftware.edition.virtual.domain.Taxonomy_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_86" {
+ label = "<<assembly component>>\n@86:pt.ist.socialsoftware.edition.virtual.domain.Tag_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_87" {
+ label = "<<assembly component>>\n@87:pt.ist.socialsoftware.edition.virtual.domain.Category_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_88" {
+ label = "<<assembly component>>\n@88:pt.ist.socialsoftware.edition.virtual.domain.Section_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_89" {
+ label = "<<assembly component>>\n@89:pt.ist.socialsoftware.edition.virtual.domain.Section";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_422" [label="getAllDepthVirtualEditionInterSet()\nmin: 916ns, avg: 3042ns, max: 5167ns,\ntotal: 6083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_432" [label="getRootSection()\nmin: 125ns, avg: 230ns, max: 750ns,\ntotal: 9210ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_433" [label="isRootSection()\nmin: 83ns, avg: 132ns, max: 541ns,\ntotal: 10540ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_435" [label="getVirtualEdition()\nmin: 208ns, avg: 320ns, max: 792ns,\ntotal: 12792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_90" {
+ label = "<<assembly component>>\n@90:pt.ist.socialsoftware.edition.virtual.domain.VirtualEditionInter_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_91" {
+ label = "<<assembly component>>\n@91:pt.ist.socialsoftware.edition.virtual.domain.VirtualEditionInter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_429" [label="compareTo(..)\nmin: 1542ns, avg: 2113ns, max: 5416ns,\ntotal: 42253ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_430" [label="getVirtualEdition()\nmin: 583ns, avg: 868ns, max: 3542ns,\ntotal: 34704ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_92" {
+ label = "<<assembly component>>\n@92:pt.ist.socialsoftware.edition.virtual.domain.VirtualEdition";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_418" [label="getAllDepthVirtualEditionInters()\nmin: 22292ns, avg: 29959ns, max: 37625ns,\ntotal: 59917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_93" {
+ label = "<<assembly component>>\n@93:pt.ist.socialsoftware.edition.game.domain.ClassificationModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_443" [label="getInstance()\nmin: 250ns, avg: 271ns, max: 291ns,\ntotal: 541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_94" {
+ label = "<<assembly component>>\n@94:pt.ist.socialsoftware.edition.game.domain.Player_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_95" {
+ label = "<<assembly component>>\n@95:pt.ist.socialsoftware.edition.game.domain.ClassificationModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_96" {
+ label = "<<assembly component>>\n@96:pt.ist.socialsoftware.edition.game.domain.ClassificationGame_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_97" {
+ label = "<<assembly component>>\n@97:pt.ist.socialsoftware.edition.game.api.GameRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_442" [label="notify(..)\nmin: 204084ns, avg: 204084ns, max: 204084ns,\ntotal: 204084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+depNode_0->depNode_64[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_1[label=305, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_115[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_116[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_117[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_118[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_119[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_120[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_1->depNode_128[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_1->depNode_2[label=305, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_256[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_128[label=22, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_257[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_258[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_131[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_132[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_133[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_261[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_134[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_262[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_135[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_8[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_136[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_137[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_138[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_266[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_139[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_140[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_141[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_269[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_142[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_143[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_144[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_145[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_146[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_147[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_148[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_149[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_278[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_279[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_280[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_281[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_282[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_283[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_284[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_287[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_288[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_289[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_290[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_35[label=85, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_291[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_36[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_292[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_37[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_293[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_38[label=22, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_294[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_295[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_296[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_297[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_298[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_299[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_300[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_310[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_63[label=87, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_323[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_324[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_69[label=565, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_466[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_345[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_346[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_347[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_348[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_349[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_350[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_351[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_352[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_353[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_354[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_355[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_364[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_110[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_112[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_113[label=98, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_114[label=49, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_121[label=470, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_124[label=227, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_125[label=227, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_126[label=71, style="solid", arrowhead="open", color="#000000"]
+depNode_17->depNode_18[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_18->depNode_19[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_18->depNode_24[label=44, style="solid", arrowhead="open", color="#000000"]
+depNode_24->depNode_25[label=504, style="solid", arrowhead="open", color="#000000"]
+depNode_24->depNode_27[label=504, style="solid", arrowhead="open", color="#000000"]
+depNode_38->depNode_39[label=28, style="solid", arrowhead="open", color="#000000"]
+depNode_39->depNode_19[label=28, style="solid", arrowhead="open", color="#000000"]
+depNode_41->depNode_42[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_19[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_43[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_47[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_47->depNode_19[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_53->depNode_54[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_54->depNode_19[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_54->depNode_43[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_59->depNode_60[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_59->depNode_63[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_60->depNode_25[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_60->depNode_61[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_60->depNode_62[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_70->depNode_71[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_71->depNode_72[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_72->depNode_19[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_72->depNode_43[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_77->depNode_81[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_77->depNode_78[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_78->depNode_80[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_78->depNode_25[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_78->depNode_62[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_78->depNode_79[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_81->depNode_82[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_82->depNode_83[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_82->depNode_61[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_84->depNode_85[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_85->depNode_86[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_86->depNode_87[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_86->depNode_88[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_110->depNode_111[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_111->depNode_130[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_111->depNode_77[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_121->depNode_122[label=470, style="solid", arrowhead="open", color="#000000"]
+depNode_122->depNode_123[label=473, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_19[label=473, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_24[label=455, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_43[label=473, style="solid", arrowhead="open", color="#000000"]
+depNode_126->depNode_120[label=71, style="solid", arrowhead="open", color="#000000"]
+depNode_131->depNode_132[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_196[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_133[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_134[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_135[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_136[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_137[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_138[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_139[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_140[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_245[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_150[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_255[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_151[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_151->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_151->depNode_152[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_151->depNode_24[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_178[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_180[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_173[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_173->depNode_174[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_196->depNode_197[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_197->depNode_240[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_197->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_197->depNode_198[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_197->depNode_43[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_207->depNode_229[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_240->depNode_242[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_240->depNode_25[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_245->depNode_246[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_246->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_246->depNode_247[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_246->depNode_249[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_249->depNode_250[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_249->depNode_251[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_251->depNode_252[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_251->depNode_253[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_251->depNode_254[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_252->depNode_250[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_254->depNode_250[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_256->depNode_257[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_258->depNode_17[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_262->depNode_263[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_263->depNode_19[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_263->depNode_264[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_263->depNode_43[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_266->depNode_267[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_267->depNode_19[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_267->depNode_43[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_269->depNode_272[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_269->depNode_270[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_270->depNode_271[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_271->depNode_24[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_272->depNode_273[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_273->depNode_274[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_273->depNode_19[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_273->depNode_43[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_288[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_289[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_35[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_36[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_261[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_41[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_270[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_279[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_280[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_281[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_282[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_283[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_124[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_284[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_125[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_285[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_278->depNode_287[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_285->depNode_286[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_286->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_286->depNode_43[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_286->depNode_47[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_290[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_291[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_292[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_293[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_294[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_295[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_296[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_297[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_298[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_301[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_302[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_303[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_122[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_301->depNode_60[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_302->depNode_290[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_302->depNode_291[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_303->depNode_304[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_304->depNode_305[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_304->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_304->depNode_43[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_310->depNode_311[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_311->depNode_312[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_312->depNode_19[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_312->depNode_313[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_324->depNode_325[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_325->depNode_326[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_326->depNode_327[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_326->depNode_328[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_333->depNode_334[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_334->depNode_335[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_334->depNode_337[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_337->depNode_338[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_343->depNode_344[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_344->depNode_335[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_345->depNode_346[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_353[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_356[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_357[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_358[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_122[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_347[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_355->depNode_348[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_356->depNode_60[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_353[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_122[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_58[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_347[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_348[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_349[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_358->depNode_359[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_359->depNode_72[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_359->depNode_360[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_364->depNode_365[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_364->depNode_270[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_365->depNode_366[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_366->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_366->depNode_43[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_366->depNode_367[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_372->depNode_384[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_372->depNode_373[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_372->depNode_375[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_372->depNode_442[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_373->depNode_374[label=32, style="solid", arrowhead="open", color="#000000"]
+depNode_375->depNode_374[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_375->depNode_376[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_375->depNode_377[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_384->depNode_374[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_384->depNode_87[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_384->depNode_376[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_418->depNode_422[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_418->depNode_429[label=20, style="solid", arrowhead="open", color="#000000"]
+depNode_429->depNode_430[label=40, style="solid", arrowhead="open", color="#000000"]
+depNode_430->depNode_432[label=40, style="solid", arrowhead="open", color="#000000"]
+depNode_430->depNode_435[label=40, style="solid", arrowhead="open", color="#000000"]
+depNode_432->depNode_433[label=40, style="solid", arrowhead="open", color="#000000"]
+depNode_435->depNode_433[label=40, style="solid", arrowhead="open", color="#000000"]
+depNode_442->depNode_374[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_442->depNode_376[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_442->depNode_443[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_466->depNode_68[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_466->depNode_69[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_13[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_126->depNode_128[label=130, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_17[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_35[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_36[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_37[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_38[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_41[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_53[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_57[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_58[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_59[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_152->depNode_156[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_152->depNode_163[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_152->depNode_43[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_152->depNode_47[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_198->depNode_207[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_2->depNode_6[label=305, style="solid", arrowhead="open", color="#000000"]
+depNode_258->depNode_124[label=28, style="solid", arrowhead="open", color="#000000"]
+depNode_305->depNode_178[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_305->depNode_180[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_305->depNode_47[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_328->depNode_19[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_328->depNode_332[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_328->depNode_333[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_328->depNode_339[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_328->depNode_343[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_367->depNode_371[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_367->depNode_372[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_367->depNode_454[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_367->depNode_79[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_384->depNode_392[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_384->depNode_418[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_68[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_69[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_70[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_77[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_84[label=6, style="solid", arrowhead="open", color="#000000"]
+}

@@ -39,7 +39,7 @@ class ProjectProcessor:
                 methods = analyzer.get_class_method_names()
                 feature_method_dict[featurename].extend(methods)
 
-                writer.write_methods(node_info, methods, featurename)
+                writer.write_methods(node_info, methods, featurename, analyzer.adjacency_list)
 
         writer.write_general_functionality_list(feature_method_dict)
 

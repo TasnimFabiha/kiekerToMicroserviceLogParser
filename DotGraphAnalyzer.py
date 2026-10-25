@@ -51,6 +51,9 @@ class DotGraphAnalyzer:
         class_name = node_info.get('class', '')
         
         full_method_name = f"{class_name}.{method_name}"
+        # constructors: "<init>" in the graph, named after the class in the size file
+        if method_name == 'init':
+            full_method_name = f"{class_name}.{class_name.split('.')[-1].split('$')[-1]}"
         size = 0
         if full_method_name in self.method_size_map:
             size = self.method_size_map[full_method_name]

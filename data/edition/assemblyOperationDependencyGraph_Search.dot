@@ -1,0 +1,1421 @@
+digraph G {
+ rankdir=LR;
+"depNode_0" [label="'Entry'",shape="none"]
+subgraph "cluster_component_1" {
+ label = "<<assembly component>>\n@1:pt.ist.socialsoftware.edition.ldod.frontend.filters.TransactionFilter$callable$doFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_2" {
+ label = "<<assembly component>>\n@2:pt.ist.socialsoftware.edition.ldod.frontend.user.security.UserModuleUserDetails";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_7" [label="getUsername()\nmin: 0ns, avg: 95ns, max: 917ns,\ntotal: 24463ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_12" [label="getUser()\nmin: 1875ns, avg: 9842ns, max: 39667ns,\ntotal: 826713ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_35" [label="hasRole(..)\nmin: 6833ns, avg: 16397ns, max: 57125ns,\ntotal: 344331ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_36" [label="getAuthorities()\nmin: 0ns, avg: 105ns, max: 1500ns,\ntotal: 2206ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_144" [label="getAuthenticatedUser()\nmin: 1375ns, avg: 2593ns, max: 6750ns,\ntotal: 46667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_3" {
+ label = "<<assembly component>>\n@3:pt.ist.socialsoftware.edition.ldod.frontend.config.Application$1";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_4" {
+ label = "<<assembly component>>\n@4:pt.ist.socialsoftware.edition.ldod.frontend.user.session.FrontendSession";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_10" [label="getFrontendSession()\nmin: 2333ns, avg: 5402ns, max: 9708ns,\ntotal: 172874ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_34" [label="getSelectedVEAcr()\nmin: 0ns, avg: 93ns, max: 416ns,\ntotal: 1961ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_5" {
+ label = "<<assembly component>>\n@5:pt.ist.socialsoftware.edition.ldod.frontend.HomeController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_9" [label="getLdoDSession()\nmin: 6750ns, avg: 10615ns, max: 12875ns,\ntotal: 84916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_11" [label="showHome(..)\nmin: 208ns, avg: 448ns, max: 791ns,\ntotal: 3584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_6" {
+ label = "<<assembly component>>\n@6:pt.ist.socialsoftware.edition.user.domain.UserModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_15" [label="getInstance()\nmin: 0ns, avg: 287ns, max: 2083ns,\ntotal: 24128ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_16" [label="getUser(..)\nmin: 542ns, avg: 2919ns, max: 12792ns,\ntotal: 245171ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_7" {
+ label = "<<assembly component>>\n@7:pt.ist.socialsoftware.edition.user.domain.User_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_8" {
+ label = "<<assembly component>>\n@8:pt.ist.socialsoftware.edition.user.domain.UserModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_9" {
+ label = "<<assembly component>>\n@9:pt.ist.socialsoftware.edition.user.api.UserProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_14" [label="getUser(..)\nmin: 1667ns, avg: 9037ns, max: 36167ns,\ntotal: 759087ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_23" [label="<init>()\nmin: 0ns, avg: 41ns, max: 167ns,\ntotal: 3456ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_10" {
+ label = "<<assembly component>>\n@10:pt.ist.socialsoftware.edition.user.api.dto.UserDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_22" [label="<init>(..)\nmin: 833ns, avg: 3421ns, max: 14125ns,\ntotal: 287338ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_24" [label="setUsername(..)\nmin: 0ns, avg: 42ns, max: 166ns,\ntotal: 3541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_32" [label="getFirstName()\nmin: 0ns, avg: 40ns, max: 125ns,\ntotal: 1667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_33" [label="getLastName()\nmin: 0ns, avg: 45ns, max: 292ns,\ntotal: 1878ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_11" {
+ label = "<<assembly component>>\n@11:pt.ist.socialsoftware.edition.ldod.frontend.user.FeUserRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_13" [label="getUser(..)\nmin: 1750ns, avg: 9398ns, max: 37917ns,\ntotal: 789417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_12" {
+ label = "<<assembly component>>\n@12:pt.ist.socialsoftware.edition.ldod.frontend.user.security.GrantedAuthorityImpl";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_38" [label="getAuthority()\nmin: 0ns, avg: 29ns, max: 84ns,\ntotal: 1209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_13" {
+ label = "<<assembly component>>\n@13:pt.ist.socialsoftware.edition.ldod.frontend.filters.SimpleCORSFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_6" [label="doFilter(..)\nmin: 498375ns, avg: 10110058ns, max: 142774125ns,\ntotal: 839134791ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_14" {
+ label = "<<assembly component>>\n@14:pt.ist.socialsoftware.edition.ldod.frontend.filters.TransactionFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_2" [label="doFilter(..)\nmin: 1132167ns, avg: 10995043ns, max: 143429583ns,\ntotal: 912588546ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_15" {
+ label = "<<assembly component>>\n@15:pt.ist.socialsoftware.edition.ldod.frontend.filters.JWTAuthorizationFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_1" [label="doFilterInternal(..)\nmin: 1152458ns, avg: 11036827ns, max: 143455500ns,\ntotal: 916056666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_16" {
+ label = "<<assembly component>>\n@16:pt.ist.socialsoftware.edition.ldod.frontend.utils.controller.NotFoundController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_40" [label="handlePageNotFound()\nmin: 1834ns, avg: 2787ns, max: 5792ns,\ntotal: 22293ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_17" {
+ label = "<<assembly component>>\n@17:pt.ist.socialsoftware.edition.ldod.frontend.search.SearchController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_41" [label="getLdoDSession()\nmin: 5000ns, avg: 11872ns, max: 19708ns,\ntotal: 284917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_42" [label="simpleSearch(..)\nmin: 83ns, avg: 3646ns, max: 7208ns,\ntotal: 7291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_43" [label="initBinder(..)\nmin: 833ns, avg: 17266ns, max: 505792ns,\ntotal: 1070499ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_44" [label="simpleSearchResult(..)\nmin: 2923833ns, avg: 6296792ns, max: 10685625ns,\ntotal: 18890375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_122" [label="advancedSearch(..)\nmin: 22125ns, avg: 23729ns, max: 25333ns,\ntotal: 47458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_141" [label="advancedSearchResultNew(..)\nmin: 1450375ns, avg: 2400681ns, max: 6118000ns,\ntotal: 40811582ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_18" {
+ label = "<<assembly component>>\n@18:pt.ist.socialsoftware.edition.search.feature.SearchProcessor";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_47" [label="<init>()\nmin: 0ns, avg: 94ns, max: 625ns,\ntotal: 1875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_48" [label="simpleSearch(..)\nmin: 2875250ns, avg: 5575625ns, max: 8634875ns,\ntotal: 16726875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_149" [label="advancedSearch(..)\nmin: 1402375ns, avg: 2317765ns, max: 5794750ns,\ntotal: 39401999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_19" {
+ label = "<<assembly component>>\n@19:pt.ist.socialsoftware.edition.search.feature.options.TextSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_49" [label="purgeSearchText(..)\nmin: 34792ns, avg: 56153ns, max: 73625ns,\ntotal: 168459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_51" [label="<init>(..)\nmin: 42ns, avg: 250ns, max: 625ns,\ntotal: 751ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_52" [label="search()\nmin: 2827375ns, avg: 4512320ns, max: 5603084ns,\ntotal: 13536959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_20" {
+ label = "<<assembly component>>\n@20:pt.ist.socialsoftware.edition.search.feature.options.SearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_50" [label="<init>()\nmin: 0ns, avg: 80ns, max: 416ns,\ntotal: 1830ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_21" {
+ label = "<<assembly component>>\n@21:pt.ist.socialsoftware.edition.text.api.TextProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_54" [label="<init>()\nmin: 0ns, avg: 36ns, max: 1417ns,\ntotal: 133567ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_57" [label="searchScholarInterForWords(..)\nmin: 2810042ns, avg: 4499000ns, max: 5591791ns,\ntotal: 13497000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_114" [label="getFragmentTitle(..)\nmin: 625ns, avg: 2771ns, max: 208833ns,\ntotal: 911706ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_115" [label="getFragmentByFragmentXmlId(..)\nmin: 250ns, avg: 1291ns, max: 22625ns,\ntotal: 594928ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_125" [label="getSortedExpertEditionsDto()\nmin: 45083ns, avg: 61375ns, max: 77667ns,\ntotal: 122750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_167" [label="getFragmentDtoSet()\nmin: 15667ns, avg: 30750ns, max: 59416ns,\ntotal: 645748ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_208" [label="getScholarInter(..)\nmin: 2875ns, avg: 7786ns, max: 102875ns,\ntotal: 8891902ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_209" [label="getScholarInterByXmlId(..)\nmin: 41ns, avg: 596ns, max: 101709ns,\ntotal: 1563908ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_214" [label="getScholarInterTitle(..)\nmin: 625ns, avg: 2080ns, max: 35792ns,\ntotal: 424292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_223" [label="getScholarInterDto4FragmentXmlId(..)\nmin: 19416ns, avg: 44457ns, max: 138375ns,\ntotal: 5334871ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_248" [label="isExpertInter(..)\nmin: 291ns, avg: 874ns, max: 51542ns,\ntotal: 903231ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_250" [label="getEditionAcronymOfInter(..)\nmin: 750ns, avg: 2755ns, max: 56667ns,\ntotal: 165294ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_280" [label="getExpertEditionEditorByScholarInter(..)\nmin: 2709ns, avg: 12256ns, max: 218167ns,\ntotal: 3382704ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_281" [label="getExpertEditionByExpertEditionInterId(..)\nmin: 2250ns, avg: 10526ns, max: 69917ns,\ntotal: 2905082ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_301" [label="getSourceOfSourceInter(..)\nmin: 2666ns, avg: 5857ns, max: 22750ns,\ntotal: 281125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_377" [label="getSourceInterType(..)\nmin: 1291ns, avg: 8273ns, max: 247625ns,\ntotal: 380540ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_396" [label="getFragmentSourceSet(..)\nmin: 4334ns, avg: 14379ns, max: 53666ns,\ntotal: 172542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_408" [label="getHeteronymDtoSet()\nmin: 285417ns, avg: 285417ns, max: 285417ns,\ntotal: 285417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_428" [label="getScholarInterHeteronym(..)\nmin: 1167ns, avg: 2191ns, max: 8750ns,\ntotal: 63545ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_488" [label="getScholarInterDate(..)\nmin: 417ns, avg: 1755ns, max: 14166ns,\ntotal: 112288ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_22" {
+ label = "<<assembly component>>\n@22:pt.ist.socialsoftware.edition.virtual.api.VirtualProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_55" [label="<init>()\nmin: 0ns, avg: 41ns, max: 2250ns,\ntotal: 31243ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_175" [label="getVirtualEditionInterSet()\nmin: 411709ns, avg: 662005ns, max: 1176292ns,\ntotal: 11254086ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_239" [label="getVirtualEditionLastUsedScholarInter(..)\nmin: 4333ns, avg: 10247ns, max: 115292ns,\ntotal: 2090488ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_240" [label="getVirtualEditionInterByXmlId(..)\nmin: 208ns, avg: 1469ns, max: 36458ns,\ntotal: 299705ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_443" [label="getVirtualEditionSortedCategoryList(..)\nmin: 105500ns, avg: 105500ns, max: 105500ns,\ntotal: 105500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_448" [label="getPublicVirtualEditionsOrUserIsParticipant(..)\nmin: 55125ns, avg: 96109ns, max: 162833ns,\ntotal: 1249417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_482" [label="isInterInVirtualEdition(..)\nmin: 31000ns, avg: 88287ns, max: 236750ns,\ntotal: 1589166ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_23" {
+ label = "<<assembly component>>\n@23:pt.ist.socialsoftware.edition.search.api.SearchRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_53" [label="<init>()\nmin: 167ns, avg: 752ns, max: 92083ns,\ntotal: 388912ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_56" [label="searchScholarInterForWords(..)\nmin: 2810958ns, avg: 4501486ns, max: 5595666ns,\ntotal: 13504457ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_166" [label="getFragmentDtoSet()\nmin: 18542ns, avg: 30850ns, max: 51458ns,\ntotal: 524458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_174" [label="getVirtualEditionInterSet()\nmin: 415750ns, avg: 663922ns, max: 1177834ns,\ntotal: 11286667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_247" [label="isExpertInter(..)\nmin: 458ns, avg: 1443ns, max: 55625ns,\ntotal: 418543ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_249" [label="getEditionAcronymOfInter(..)\nmin: 875ns, avg: 3123ns, max: 57833ns,\ntotal: 187374ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_375" [label="isSourceInter(..)\nmin: 541ns, avg: 893ns, max: 2792ns,\ntotal: 77711ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_376" [label="getSourceInterType(..)\nmin: 1500ns, avg: 17357ns, max: 251167ns,\ntotal: 312418ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_379" [label="getSourceOfSourceInter(..)\nmin: 3458ns, avg: 6729ns, max: 16500ns,\ntotal: 67291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_442" [label="getVirtualEditionSortedCategoryList(..)\nmin: 122208ns, avg: 122208ns, max: 122208ns,\ntotal: 122208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_479" [label="getPublicVirtualEditionsOrUserIsParticipant(..)\nmin: 55250ns, avg: 91142ns, max: 153166ns,\ntotal: 1093708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_481" [label="isInterInVirtualEdition(..)\nmin: 31250ns, avg: 88762ns, max: 237625ns,\ntotal: 1597709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_24" {
+ label = "<<assembly component>>\n@24:pt.ist.socialsoftware.edition.text.utils.PropertiesManager";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_60" [label="getProperties()\nmin: 41ns, avg: 42ns, max: 42ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_25" {
+ label = "<<assembly component>>\n@25:pt.ist.socialsoftware.edition.text.feature.indexer.IgnoreDiacriticsAnalyzer";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_61" [label="<init>()\nmin: 208ns, avg: 875ns, max: 1833ns,\ntotal: 2625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_65" [label="createComponents(..)\nmin: 22125ns, avg: 33042ns, max: 54292ns,\ntotal: 99125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_66" [label="getStopwordSet()\nmin: 41ns, avg: 42ns, max: 42ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_26" {
+ label = "<<assembly component>>\n@26:pt.ist.socialsoftware.edition.text.feature.indexer.Indexer";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_58" [label="getIndexer()\nmin: 27167ns, avg: 76389ns, max: 150458ns,\ntotal: 229167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_59" [label="<init>()\nmin: 26625ns, avg: 74139ns, max: 146167ns,\ntotal: 222417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_62" [label="search(..)\nmin: 2690792ns, avg: 4292083ns, max: 5329958ns,\ntotal: 12876250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_63" [label="absoluteSearch(..)\nmin: 10417ns, avg: 55223ns, max: 131542ns,\ntotal: 165668ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_64" [label="getResults(..)\nmin: 2640208ns, avg: 4164347ns, max: 5109583ns,\ntotal: 12493041ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_67" [label="getFragIntersAndCleanMissingHits(..)\nmin: 8292ns, avg: 12736ns, max: 17166ns,\ntotal: 38208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_27" {
+ label = "<<assembly component>>\n@27:pt.ist.socialsoftware.edition.text.domain.ScholarInter_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_28" {
+ label = "<<assembly component>>\n@28:pt.ist.socialsoftware.edition.text.api.dto.ScholarInterDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_68" [label="<init>(..)\nmin: 2667ns, avg: 6872ns, max: 89167ns,\ntotal: 11853821ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_70" [label="setXmlId(..)\nmin: 0ns, avg: 35ns, max: 542ns,\ntotal: 60352ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_106" [label="getFragmentXmlId()\nmin: 0ns, avg: 35ns, max: 375ns,\ntotal: 42639ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_107" [label="equals(..)\nmin: 209ns, avg: 440ns, max: 2375ns,\ntotal: 8793ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_108" [label="getXmlId()\nmin: 0ns, avg: 40ns, max: 3667ns,\ntotal: 48582ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_112" [label="hashCode()\nmin: 0ns, avg: 37ns, max: 208ns,\ntotal: 21952ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_117" [label="getType()\nmin: 0ns, avg: 36ns, max: 167ns,\ntotal: 8882ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_118" [label="getUrlId()\nmin: 0ns, avg: 37ns, max: 208ns,\ntotal: 18841ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_119" [label="getShortName()\nmin: 0ns, avg: 51ns, max: 2584ns,\ntotal: 25720ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_120" [label="getTitle()\nmin: 0ns, avg: 43ns, max: 3334ns,\ntotal: 21594ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_121" [label="getEditionReference()\nmin: 0ns, avg: 37ns, max: 42ns,\ntotal: 294ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_299" [label="isSourceInter()\nmin: 0ns, avg: 33ns, max: 83ns,\ntotal: 1501ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_300" [label="getSourceDto()\nmin: 2750ns, avg: 5093ns, max: 16459ns,\ntotal: 112043ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_487" [label="getLdoDDate()\nmin: 500ns, avg: 2167ns, max: 14292ns,\ntotal: 88836ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_29" {
+ label = "<<assembly component>>\n@29:pt.ist.socialsoftware.edition.text.domain.Fragment_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_30" {
+ label = "<<assembly component>>\n@30:pt.ist.socialsoftware.edition.text.domain.SourceInter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_71" [label="getTitle()\nmin: 125ns, avg: 411ns, max: 28250ns,\ntotal: 503713ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_75" [label="isExpertInter()\nmin: 0ns, avg: 37ns, max: 6375ns,\ntotal: 119447ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_77" [label="getShortName()\nmin: 208ns, avg: 617ns, max: 63917ns,\ntotal: 1261896ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_80" [label="getReference()\nmin: 291ns, avg: 737ns, max: 64083ns,\ntotal: 753812ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_81" [label="getEdition()\nmin: 125ns, avg: 356ns, max: 25458ns,\ntotal: 1115119ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_86" [label="getNumber()\nmin: 0ns, avg: 37ns, max: 292ns,\ntotal: 37380ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_430" [label="getHeteronym()\nmin: 625ns, avg: 986ns, max: 1666ns,\ntotal: 5915ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_491" [label="getLdoDDate()\nmin: 375ns, avg: 635ns, max: 1833ns,\ntotal: 7625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_31" {
+ label = "<<assembly component>>\n@31:pt.ist.socialsoftware.edition.text.domain.ScholarInter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_74" [label="getUrlId()\nmin: 83ns, avg: 343ns, max: 35292ns,\ntotal: 590919ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_32" {
+ label = "<<assembly component>>\n@32:pt.ist.socialsoftware.edition.text.domain.SourceInter_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_33" {
+ label = "<<assembly component>>\n@33:pt.ist.socialsoftware.edition.text.domain.Source_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_34" {
+ label = "<<assembly component>>\n@34:pt.ist.socialsoftware.edition.text.domain.Source";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_78" [label="getName()\nmin: 83ns, avg: 266ns, max: 63625ns,\ntotal: 560221ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_35" {
+ label = "<<assembly component>>\n@35:pt.ist.socialsoftware.edition.text.domain.TextModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_82" [label="getInstance()\nmin: 0ns, avg: 48ns, max: 5292ns,\ntotal: 166615ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_126" [label="getSortedExpertEdition()\nmin: 21041ns, avg: 26854ns, max: 32666ns,\ntotal: 53707ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_36" {
+ label = "<<assembly component>>\n@36:pt.ist.socialsoftware.edition.text.domain.TextModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_37" {
+ label = "<<assembly component>>\n@37:pt.ist.socialsoftware.edition.text.domain.NullEdition";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_84" [label="getAcronym()\nmin: 0ns, avg: 34ns, max: 708ns,\ntotal: 37111ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_85" [label="getReference()\nmin: 0ns, avg: 34ns, max: 208ns,\ntotal: 34981ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_38" {
+ label = "<<assembly component>>\n@38:pt.ist.socialsoftware.edition.text.domain.ExpertEditionInter_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_39" {
+ label = "<<assembly component>>\n@39:pt.ist.socialsoftware.edition.text.domain.ExpertEditionInter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_88" [label="getTitle()\nmin: 83ns, avg: 267ns, max: 2709ns,\ntotal: 187246ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_90" [label="isExpertInter()\nmin: 0ns, avg: 34ns, max: 292ns,\ntotal: 78859ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_91" [label="getEdition()\nmin: 83ns, avg: 196ns, max: 12000ns,\ntotal: 549531ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_93" [label="getShortName()\nmin: 250ns, avg: 916ns, max: 25917ns,\ntotal: 642955ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_96" [label="getReference()\nmin: 83ns, avg: 268ns, max: 15042ns,\ntotal: 187945ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_104" [label="getCompleteNumber()\nmin: 250ns, avg: 795ns, max: 10709ns,\ntotal: 557882ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_40" {
+ label = "<<assembly component>>\n@40:pt.ist.socialsoftware.edition.text.domain.ExpertEdition_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_41" {
+ label = "<<assembly component>>\n@41:pt.ist.socialsoftware.edition.text.domain.ExpertEdition";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_94" [label="getEditorShortName()\nmin: 84ns, avg: 559ns, max: 25584ns,\ntotal: 392570ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_99" [label="getReference()\nmin: 83ns, avg: 189ns, max: 3666ns,\ntotal: 132840ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_130" [label="compareTo(..)\nmin: 417ns, avg: 1285ns, max: 2833ns,\ntotal: 7708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_283" [label="getFragInterByXmlId(..)\nmin: 750ns, avg: 3146ns, max: 56084ns,\ntotal: 2114082ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_284" [label="getIntersSet()\nmin: 416ns, avg: 920ns, max: 4833ns,\ntotal: 617966ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_42" {
+ label = "<<assembly component>>\n@42:pt.ist.socialsoftware.edition.text.domain.ScholarEdition_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_43" {
+ label = "<<assembly component>>\n@43:pt.ist.socialsoftware.edition.search.api.SearchProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_46" [label="simpleSearch(..)\nmin: 2877917ns, avg: 6203889ns, max: 10508375ns,\ntotal: 18611667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_111" [label="<init>()\nmin: 542ns, avg: 1728ns, max: 13500ns,\ntotal: 32835ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_146" [label="advancedSearch(..)\nmin: 1415917ns, avg: 2353365ns, max: 6061583ns,\ntotal: 40007207ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_44" {
+ label = "<<assembly component>>\n@44:pt.ist.socialsoftware.edition.ldod.frontend.search.FeSearchRequiresInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_45" [label="getSimpleSearch(..)\nmin: 2879000ns, avg: 6206194ns, max: 10511708ns,\ntotal: 18618583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_109" [label="<init>()\nmin: 2208ns, avg: 3991ns, max: 15500ns,\ntotal: 75834ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_113" [label="getFragmentTitle(..)\nmin: 750ns, avg: 3253ns, max: 213542ns,\ntotal: 1070251ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_124" [label="getSortedExpertEditionsDto()\nmin: 46458ns, avg: 64792ns, max: 83125ns,\ntotal: 129583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_142" [label="getAuthenticatedUser()\nmin: 4375ns, avg: 8352ns, max: 15250ns,\ntotal: 150332ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_145" [label="advancedSearch(..)\nmin: 1417084ns, avg: 2355211ns, max: 6065000ns,\ntotal: 40038585ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_276" [label="isExpertInter(..)\nmin: 416ns, avg: 1022ns, max: 28041ns,\ntotal: 670544ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_279" [label="getExpertEditionEditor(..)\nmin: 2958ns, avg: 12642ns, max: 220208ns,\ntotal: 3489291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_291" [label="getTypeOfFragInter(..)\nmin: 4583ns, avg: 9697ns, max: 107208ns,\ntotal: 2404785ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_298" [label="getFragmentDtoSet()\nmin: 21125ns, avg: 41198ns, max: 62375ns,\ntotal: 164792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_385" [label="getSourceInterType(..)\nmin: 1791ns, avg: 3552ns, max: 8958ns,\ntotal: 99456ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_386" [label="hasTypeNoteSet(..)\nmin: 4709ns, avg: 8734ns, max: 15167ns,\ntotal: 43668ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_388" [label="hasHandNoteSet(..)\nmin: 4417ns, avg: 5075ns, max: 5958ns,\ntotal: 25375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_407" [label="getHeteronymDtoSet()\nmin: 290500ns, avg: 290500ns, max: 290500ns,\ntotal: 290500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_427" [label="getHeteronymName(..)\nmin: 1542ns, avg: 2799ns, max: 14208ns,\ntotal: 81164ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_447" [label="getPublicVirtualEditionsOrUserIsParticipant(..)\nmin: 167000ns, avg: 167000ns, max: 167000ns,\ntotal: 167000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_495" [label="getScholarInterDate(..)\nmin: 750ns, avg: 1835ns, max: 10125ns,\ntotal: 42205ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_496" [label="getSourceOfSourceInter(..)\nmin: 4750ns, avg: 9646ns, max: 23875ns,\ntotal: 57875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_45" {
+ label = "<<assembly component>>\n@45:pt.ist.socialsoftware.edition.ldod.frontend.user.FeUserProvidesInterface";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_110" [label="<init>()\nmin: 0ns, avg: 39ns, max: 42ns,\ntotal: 748ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_143" [label="getAuthenticatedUser()\nmin: 3000ns, avg: 6292ns, max: 11666ns,\ntotal: 113249ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_46" {
+ label = "<<assembly component>>\n@46:pt.ist.socialsoftware.edition.text.api.dto.ExpertEditionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_131" [label="<init>(..)\nmin: 375ns, avg: 4870ns, max: 23750ns,\ntotal: 38958ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_132" [label="getAcronym()\nmin: 0ns, avg: 26ns, max: 42ns,\ntotal: 209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_133" [label="getEditor()\nmin: 0ns, avg: 31ns, max: 42ns,\ntotal: 247ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_47" {
+ label = "<<assembly component>>\n@47:pt.ist.socialsoftware.edition.ldod.frontend.search.SearchRemoteController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_123" [label="getEditions()\nmin: 51542ns, avg: 98459ns, max: 145375ns,\ntotal: 196917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_292" [label="getManuscript()\nmin: 2062000ns, avg: 2062000ns, max: 2062000ns,\ntotal: 2062000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_293" [label="getAuthoralDates(..)\nmin: 440667ns, avg: 1219563ns, max: 1998458ns,\ntotal: 2439125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_340" [label="getIsBeforeDate(..)\nmin: 41ns, avg: 3687ns, max: 41875ns,\ntotal: 44248ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_341" [label="getIsAfterDate(..)\nmin: 42ns, avg: 288ns, max: 1625ns,\ntotal: 3459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_389" [label="getDatiloscript()\nmin: 442375ns, avg: 442375ns, max: 442375ns,\ntotal: 442375ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_394" [label="getPublicationsDates()\nmin: 300708ns, avg: 300708ns, max: 300708ns,\ntotal: 300708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_406" [label="getHeteronyms()\nmin: 319959ns, avg: 319959ns, max: 319959ns,\ntotal: 319959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_446" [label="getVirtualEditions(..)\nmin: 584917ns, avg: 584917ns, max: 584917ns,\ntotal: 584917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_486" [label="getDates()\nmin: 722625ns, avg: 722625ns, max: 722625ns,\ntotal: 722625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_48" {
+ label = "<<assembly component>>\n@48:pt.ist.socialsoftware.edition.search.feature.options.DateSearchOption$Dated";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_134" [label="<init>(..)\nmin: 83ns, avg: 333ns, max: 750ns,\ntotal: 1000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_358" [label="getDated()\nmin: 41ns, avg: 83ns, max: 167ns,\ntotal: 666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_49" {
+ label = "<<assembly component>>\n@49:pt.ist.socialsoftware.edition.search.api.dto.SearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_136" [label="<init>()\nmin: 41ns, avg: 217ns, max: 708ns,\ntotal: 4331ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_50" {
+ label = "<<assembly component>>\n@50:pt.ist.socialsoftware.edition.search.api.dto.EditionSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_137" [label="<init>(..)\nmin: 292ns, avg: 1004ns, max: 2917ns,\ntotal: 10041ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_154" [label="createSearchOption()\nmin: 4084ns, avg: 14188ns, max: 89958ns,\ntotal: 141875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_156" [label="isInclusion()\nmin: 41ns, avg: 50ns, max: 84ns,\ntotal: 501ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_157" [label="getEdition()\nmin: 0ns, avg: 42ns, max: 84ns,\ntotal: 416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_158" [label="getHeteronymSearchOption()\nmin: 41ns, avg: 46ns, max: 83ns,\ntotal: 460ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_159" [label="getDateSearchOption()\nmin: 41ns, avg: 42ns, max: 42ns,\ntotal: 419ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_51" {
+ label = "<<assembly component>>\n@51:pt.ist.socialsoftware.edition.search.feature.options.SearchOption$Mode";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_139" [label="<init>(..)\nmin: 83ns, avg: 271ns, max: 458ns,\ntotal: 541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_140" [label="getMode()\nmin: 41ns, avg: 98ns, max: 166ns,\ntotal: 1663ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_52" {
+ label = "<<assembly component>>\n@52:pt.ist.socialsoftware.edition.search.api.dto.SearchDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_138" [label="<init>(..)\nmin: 1125ns, avg: 5331ns, max: 54458ns,\ntotal: 90625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_147" [label="getSearchOptions()\nmin: 41ns, avg: 58ns, max: 209ns,\ntotal: 2915ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_151" [label="getMode()\nmin: 41ns, avg: 83ns, max: 125ns,\ntotal: 1415ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_53" {
+ label = "<<assembly component>>\n@53:pt.ist.socialsoftware.edition.search.feature.options.Search";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_150" [label="<init>(..)\nmin: 19916ns, avg: 116667ns, max: 531625ns,\ntotal: 1983333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_160" [label="search()\nmin: 1244125ns, avg: 1954498ns, max: 4479584ns,\ntotal: 33226459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_161" [label="getSearchOptions()\nmin: 41ns, avg: 54ns, max: 125ns,\ntotal: 918ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_162" [label="getMode()\nmin: 0ns, avg: 61ns, max: 291ns,\ntotal: 2083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_163" [label="searchOptionsANDComposition(..)\nmin: 1236000ns, avg: 1943189ns, max: 4471375ns,\ntotal: 33034209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_164" [label="orderTextSearchOptions(..)\nmin: 10334ns, avg: 59299ns, max: 756458ns,\ntotal: 1008084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_165" [label="getSearchableElements()\nmin: 932791ns, avg: 1288078ns, max: 2131542ns,\ntotal: 21897332ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_252" [label="addToMatchSet(..)\nmin: 584ns, avg: 1452ns, max: 43708ns,\ntotal: 461810ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_255" [label="purgeNonFullyAchievedEntries(..)\nmin: 2459ns, avg: 9563ns, max: 18625ns,\ntotal: 153000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_54" {
+ label = "<<assembly component>>\n@54:pt.ist.socialsoftware.edition.search.feature.options.EditionSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_155" [label="<init>(..)\nmin: 2208ns, avg: 3242ns, max: 5958ns,\ntotal: 32416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_241" [label="search(..)\nmin: 1166ns, avg: 21579ns, max: 198167ns,\ntotal: 215793ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_245" [label="verifiesSearchOption(..)\nmin: 1042ns, avg: 4028ns, max: 99416ns,\ntotal: 1168255ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_256" [label="getEdition()\nmin: 0ns, avg: 55ns, max: 250ns,\ntotal: 12586ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_257" [label="hasHeteronym()\nmin: 0ns, avg: 59ns, max: 167ns,\ntotal: 13529ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_258" [label="hasDate()\nmin: 0ns, avg: 56ns, max: 292ns,\ntotal: 12959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_55" {
+ label = "<<assembly component>>\n@55:pt.ist.socialsoftware.edition.text.api.dto.FragmentDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_171" [label="<init>(..)\nmin: 334ns, avg: 1878ns, max: 31417ns,\ntotal: 236671ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_172" [label="setXmlId(..)\nmin: 0ns, avg: 39ns, max: 208ns,\ntotal: 4909ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_173" [label="hashCode()\nmin: 0ns, avg: 49ns, max: 417ns,\ntotal: 6137ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_221" [label="getScholarInterDtoSet()\nmin: 19792ns, avg: 45349ns, max: 140750ns,\ntotal: 5441837ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_222" [label="getXmlId()\nmin: 0ns, avg: 38ns, max: 125ns,\ntotal: 4504ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_395" [label="getSourcesSet()\nmin: 4750ns, avg: 15142ns, max: 56500ns,\ntotal: 181708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_56" {
+ label = "<<assembly component>>\n@56:pt.ist.socialsoftware.edition.virtual.domain.VirtualModule";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_176" [label="getInstance()\nmin: 83ns, avg: 917ns, max: 3833ns,\ntotal: 44915ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_177" [label="getVirtualEditionInterSet()\nmin: 66542ns, avg: 123122ns, max: 189959ns,\ntotal: 2093082ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_444" [label="getVirtualEdition(..)\nmin: 958ns, avg: 2088ns, max: 6417ns,\ntotal: 39669ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_449" [label="getPublicVirtualEditionsOrUserIsParticipant(..)\nmin: 4958ns, avg: 16195ns, max: 43958ns,\ntotal: 210538ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_57" {
+ label = "<<assembly component>>\n@57:pt.ist.socialsoftware.edition.virtual.domain.VirtualModule_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_58" {
+ label = "<<assembly component>>\n@58:pt.ist.socialsoftware.edition.virtual.domain.VirtualEdition_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_59" {
+ label = "<<assembly component>>\n@59:pt.ist.socialsoftware.edition.virtual.domain.Section_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_60" {
+ label = "<<assembly component>>\n@60:pt.ist.socialsoftware.edition.virtual.domain.Section";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_186" [label="getAllDepthVirtualEditionInterSet()\nmin: 1042ns, avg: 4045ns, max: 16958ns,\ntotal: 315499ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_196" [label="getRootSection()\nmin: 125ns, avg: 301ns, max: 15875ns,\ntotal: 676346ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_197" [label="isRootSection()\nmin: 41ns, avg: 170ns, max: 20667ns,\ntotal: 766356ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_199" [label="getVirtualEdition()\nmin: 208ns, avg: 451ns, max: 84167ns,\ntotal: 1015683ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_61" {
+ label = "<<assembly component>>\n@61:pt.ist.socialsoftware.edition.virtual.domain.VirtualEditionInter_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_62" {
+ label = "<<assembly component>>\n@62:pt.ist.socialsoftware.edition.virtual.domain.VirtualEditionInter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_193" [label="compareTo(..)\nmin: 1375ns, avg: 2840ns, max: 86542ns,\ntotal: 2215001ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_194" [label="getVirtualEdition()\nmin: 541ns, avg: 1168ns, max: 84750ns,\ntotal: 2627328ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_203" [label="getXmlId()\nmin: 4417ns, avg: 12160ns, max: 200541ns,\ntotal: 5909909ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_204" [label="getFragmentXmlId()\nmin: 3333ns, avg: 8894ns, max: 84125ns,\ntotal: 6136787ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_205" [label="getLastUsed()\nmin: 3208ns, avg: 8394ns, max: 92500ns,\ntotal: 7504394ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_213" [label="getTitle()\nmin: 1042ns, avg: 3664ns, max: 72208ns,\ntotal: 747537ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_216" [label="getUrlId()\nmin: 4667ns, avg: 10733ns, max: 104709ns,\ntotal: 2189583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_217" [label="getShortName()\nmin: 750ns, avg: 1623ns, max: 17708ns,\ntotal: 331085ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_218" [label="getReference()\nmin: 125ns, avg: 478ns, max: 8916ns,\ntotal: 97459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_63" {
+ label = "<<assembly component>>\n@63:pt.ist.socialsoftware.edition.virtual.domain.VirtualEdition";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_182" [label="getAllDepthVirtualEditionInters()\nmin: 18583ns, avg: 39538ns, max: 132625ns,\ntotal: 3083999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_452" [label="getTitle()\nmin: 583ns, avg: 1366ns, max: 8209ns,\ntotal: 71049ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_455" [label="getXmlId()\nmin: 208ns, avg: 1298ns, max: 8708ns,\ntotal: 33752ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_456" [label="getReference()\nmin: 83ns, avg: 149ns, max: 333ns,\ntotal: 3876ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_457" [label="isLdoDEdition()\nmin: 125ns, avg: 181ns, max: 417ns,\ntotal: 4710ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_461" [label="getSynopsis()\nmin: 166ns, avg: 377ns, max: 3583ns,\ntotal: 9792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_463" [label="getShortAcronym()\nmin: 125ns, avg: 228ns, max: 584ns,\ntotal: 5917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_464" [label="getMaxFragNumber()\nmin: 19958ns, avg: 31627ns, max: 95625ns,\ntotal: 822292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_64" {
+ label = "<<assembly component>>\n@64:pt.ist.socialsoftware.edition.virtual.api.dto.VirtualEditionInterDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_202" [label="<init>(..)\nmin: 16083ns, avg: 42234ns, max: 278292ns,\ntotal: 8615794ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_212" [label="setXmlId(..)\nmin: 0ns, avg: 78ns, max: 2125ns,\ntotal: 16003ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_219" [label="hashCode()\nmin: 41ns, avg: 113ns, max: 750ns,\ntotal: 22994ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_233" [label="getXmlId()\nmin: 0ns, avg: 63ns, max: 208ns,\ntotal: 12879ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_234" [label="getTitle()\nmin: 0ns, avg: 60ns, max: 375ns,\ntotal: 12302ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_235" [label="getFragmentXmlId()\nmin: 0ns, avg: 68ns, max: 1459ns,\ntotal: 13838ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_236" [label="getUrlId()\nmin: 0ns, avg: 58ns, max: 1125ns,\ntotal: 11833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_237" [label="getShortName()\nmin: 0ns, avg: 63ns, max: 125ns,\ntotal: 12876ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_238" [label="getLastUsed()\nmin: 4458ns, avg: 10622ns, max: 117084ns,\ntotal: 2166831ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_65" {
+ label = "<<assembly component>>\n@65:pt.ist.socialsoftware.edition.search.api.dto.SearchableElementDto$Type";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_230" [label="<init>(..)\nmin: 42ns, avg: 230ns, max: 417ns,\ntotal: 459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_66" {
+ label = "<<assembly component>>\n@66:pt.ist.socialsoftware.edition.search.api.dto.SearchableElementDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_231" [label="<init>(..)\nmin: 0ns, avg: 75ns, max: 4709ns,\ntotal: 52286ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_243" [label="getType()\nmin: 0ns, avg: 42ns, max: 2084ns,\ntotal: 57376ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_246" [label="getXmlId()\nmin: 0ns, avg: 42ns, max: 2375ns,\ntotal: 74538ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_253" [label="getFragmentXmlId()\nmin: 0ns, avg: 38ns, max: 1959ns,\ntotal: 76202ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_277" [label="getUrlId()\nmin: 0ns, avg: 63ns, max: 1500ns,\ntotal: 20165ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_278" [label="getShortName()\nmin: 0ns, avg: 68ns, max: 1584ns,\ntotal: 19664ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_405" [label="getTitle()\nmin: 0ns, avg: 56ns, max: 209ns,\ntotal: 1502ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_67" {
+ label = "<<assembly component>>\n@67:pt.ist.socialsoftware.edition.search.api.dto.AdvancedSearchResultDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_262" [label="<init>(..)\nmin: 84ns, avg: 315ns, max: 2083ns,\ntotal: 5041ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_263" [label="isShowEdition()\nmin: 41ns, avg: 62ns, max: 125ns,\ntotal: 999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_264" [label="isShowHeteronym()\nmin: 42ns, avg: 94ns, max: 167ns,\ntotal: 1500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_265" [label="isShowDate()\nmin: 41ns, avg: 57ns, max: 84ns,\ntotal: 917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_266" [label="isShowLdoD()\nmin: 42ns, avg: 96ns, max: 209ns,\ntotal: 1541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_267" [label="isShowSource()\nmin: 41ns, avg: 76ns, max: 208ns,\ntotal: 1209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_268" [label="isShowSourceType()\nmin: 41ns, avg: 65ns, max: 84ns,\ntotal: 1040ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_269" [label="isShowTaxonomy()\nmin: 41ns, avg: 44ns, max: 83ns,\ntotal: 708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_270" [label="getFragCount()\nmin: 41ns, avg: 75ns, max: 167ns,\ntotal: 1207ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_271" [label="getInterCount()\nmin: 42ns, avg: 68ns, max: 84ns,\ntotal: 1084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_272" [label="getFragCountNotAdded()\nmin: 0ns, avg: 44ns, max: 84ns,\ntotal: 709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_273" [label="getInterCountNotAdded()\nmin: 41ns, avg: 73ns, max: 84ns,\ntotal: 1163ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_274" [label="getResults()\nmin: 0ns, avg: 44ns, max: 125ns,\ntotal: 709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_68" {
+ label = "<<assembly component>>\n@68:pt.ist.socialsoftware.edition.search.api.dto.AuthoralForSearchDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_294" [label="<init>()\nmin: 42ns, avg: 292ns, max: 542ns,\ntotal: 584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_348" [label="setMediums(..)\nmin: 84ns, avg: 313ns, max: 542ns,\ntotal: 626ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_352" [label="setDates(..)\nmin: 42ns, avg: 146ns, max: 250ns,\ntotal: 292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_353" [label="getMediums()\nmin: 125ns, avg: 229ns, max: 333ns,\ntotal: 458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_354" [label="getDates()\nmin: 42ns, avg: 63ns, max: 83ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_69" {
+ label = "<<assembly component>>\n@69:pt.ist.socialsoftware.edition.ldod.frontend.utils.enums.Medium";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_295" [label="<init>(..)\nmin: 41ns, avg: 220ns, max: 1125ns,\ntotal: 1543ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_297" [label="getDesc()\nmin: 41ns, avg: 63ns, max: 167ns,\ntotal: 876ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_70" {
+ label = "<<assembly component>>\n@70:pt.ist.socialsoftware.edition.text.api.dto.SourceDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_302" [label="<init>(..)\nmin: 2167ns, avg: 5368ns, max: 38333ns,\ntotal: 322087ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_304" [label="setXmlId(..)\nmin: 0ns, avg: 32ns, max: 83ns,\ntotal: 1916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_319" [label="getType()\nmin: 41ns, avg: 60ns, max: 125ns,\ntotal: 1085ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_321" [label="hasHandNoteSet()\nmin: 42ns, avg: 67ns, max: 84ns,\ntotal: 1002ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_322" [label="getLdoDDate()\nmin: 3625ns, avg: 12406ns, max: 48709ns,\ntotal: 372166ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_323" [label="getSourceByXmlId(..)\nmin: 1459ns, avg: 7757ns, max: 39542ns,\ntotal: 232709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_387" [label="hasTypeNoteSet()\nmin: 0ns, avg: 69ns, max: 125ns,\ntotal: 1042ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_71" {
+ label = "<<assembly component>>\n@71:pt.ist.socialsoftware.edition.text.domain.ManuscriptSource_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_72" {
+ label = "<<assembly component>>\n@72:pt.ist.socialsoftware.edition.text.domain.TypeNote_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_73" {
+ label = "<<assembly component>>\n@73:pt.ist.socialsoftware.edition.text.domain.Source$SourceType";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_320" [label="getDesc()\nmin: 0ns, avg: 39ns, max: 84ns,\ntotal: 710ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_74" {
+ label = "<<assembly component>>\n@74:pt.ist.socialsoftware.edition.text.domain.LdoDDate_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_75" {
+ label = "<<assembly component>>\n@75:pt.ist.socialsoftware.edition.text.api.dto.LdoDDateDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_332" [label="<init>(..)\nmin: 1166ns, avg: 2031ns, max: 10000ns,\ntotal: 85289ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_334" [label="setType(..)\nmin: 41ns, avg: 72ns, max: 167ns,\ntotal: 3039ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_336" [label="setDate(..)\nmin: 0ns, avg: 53ns, max: 125ns,\ntotal: 2210ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_338" [label="setPrecision(..)\nmin: 41ns, avg: 66ns, max: 84ns,\ntotal: 2792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_339" [label="getDate()\nmin: 41ns, avg: 55ns, max: 84ns,\ntotal: 1497ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_76" {
+ label = "<<assembly component>>\n@76:pt.ist.socialsoftware.edition.text.domain.PrintedSource_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_77" {
+ label = "<<assembly component>>\n@77:pt.ist.socialsoftware.edition.search.api.dto.DatesForSearchDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_349" [label="<init>()\nmin: 0ns, avg: 146ns, max: 458ns,\ntotal: 583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_350" [label="setBeginDate(..)\nmin: 166ns, avg: 2541ns, max: 8458ns,\ntotal: 10165ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_351" [label="setEndDate(..)\nmin: 41ns, avg: 104ns, max: 250ns,\ntotal: 416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_355" [label="getBeginDate()\nmin: 84ns, avg: 146ns, max: 208ns,\ntotal: 584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_356" [label="getEndDate()\nmin: 41ns, avg: 63ns, max: 84ns,\ntotal: 250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_78" {
+ label = "<<assembly component>>\n@78:pt.ist.socialsoftware.edition.search.api.dto.DateSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_357" [label="<init>(..)\nmin: 58000ns, avg: 70636ns, max: 83792ns,\ntotal: 282542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_364" [label="createSearchOption()\nmin: 3500ns, avg: 77781ns, max: 299250ns,\ntotal: 311125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_366" [label="getDated()\nmin: 42ns, avg: 84ns, max: 208ns,\ntotal: 334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_367" [label="getBegin()\nmin: 42ns, avg: 73ns, max: 83ns,\ntotal: 291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_368" [label="getEnd()\nmin: 41ns, avg: 52ns, max: 83ns,\ntotal: 208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_79" {
+ label = "<<assembly component>>\n@79:pt.ist.socialsoftware.edition.search.api.dto.AuthoralSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_359" [label="<init>(..)\nmin: 125ns, avg: 583ns, max: 1041ns,\ntotal: 1166ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_362" [label="getHasLdoD()\nmin: 83ns, avg: 104ns, max: 125ns,\ntotal: 208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_363" [label="getDateSearchOption()\nmin: 42ns, avg: 42ns, max: 42ns,\ntotal: 84ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_80" {
+ label = "<<assembly component>>\n@80:pt.ist.socialsoftware.edition.search.api.dto.ManuscriptSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_360" [label="<init>(..)\nmin: 459ns, avg: 459ns, max: 459ns,\ntotal: 459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_361" [label="createSearchOption()\nmin: 512916ns, avg: 512916ns, max: 512916ns,\ntotal: 512916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_81" {
+ label = "<<assembly component>>\n@81:pt.ist.socialsoftware.edition.search.feature.options.DateSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_365" [label="<init>(..)\nmin: 2083ns, avg: 3646ns, max: 8125ns,\ntotal: 14584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_381" [label="verifiesSearchOption(..)\nmin: 458ns, avg: 875ns, max: 9291ns,\ntotal: 30624ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_384" [label="hasDate()\nmin: 83ns, avg: 264ns, max: 1084ns,\ntotal: 1584ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_492" [label="search(..)\nmin: 526250ns, avg: 526250ns, max: 526250ns,\ntotal: 526250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_82" {
+ label = "<<assembly component>>\n@82:pt.ist.socialsoftware.edition.search.feature.options.AuthoralSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_369" [label="<init>(..)\nmin: 83ns, avg: 542ns, max: 1000ns,\ntotal: 1083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_371" [label="search(..)\nmin: 1166ns, avg: 186771ns, max: 372375ns,\ntotal: 373541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_374" [label="verifiesSearchOption(..)\nmin: 1291ns, avg: 8932ns, max: 293500ns,\ntotal: 518080ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_382" [label="hasLdoDMark()\nmin: 83ns, avg: 150ns, max: 292ns,\ntotal: 750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_383" [label="hasDate()\nmin: 250ns, avg: 1108ns, max: 3792ns,\ntotal: 5542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_83" {
+ label = "<<assembly component>>\n@83:pt.ist.socialsoftware.edition.search.feature.options.ManuscriptSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_370" [label="<init>(..)\nmin: 417ns, avg: 417ns, max: 417ns,\ntotal: 417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_380" [label="isOfDocumentType(..)\nmin: 334ns, avg: 1067ns, max: 3750ns,\ntotal: 5335ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_84" {
+ label = "<<assembly component>>\n@84:pt.ist.socialsoftware.edition.search.api.dto.TypescriptSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_390" [label="<init>(..)\nmin: 542ns, avg: 542ns, max: 542ns,\ntotal: 542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_391" [label="createSearchOption()\nmin: 84750ns, avg: 84750ns, max: 84750ns,\ntotal: 84750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_85" {
+ label = "<<assembly component>>\n@85:pt.ist.socialsoftware.edition.search.feature.options.TypescriptSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_392" [label="<init>(..)\nmin: 541ns, avg: 541ns, max: 541ns,\ntotal: 541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_393" [label="isOfDocumentType(..)\nmin: 292ns, avg: 1009ns, max: 3500ns,\ntotal: 5043ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_86" {
+ label = "<<assembly component>>\n@86:pt.ist.socialsoftware.edition.search.api.dto.PublicationSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_397" [label="<init>(..)\nmin: 1083ns, avg: 1083ns, max: 1083ns,\ntotal: 1083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_398" [label="createSearchOption()\nmin: 120500ns, avg: 120500ns, max: 120500ns,\ntotal: 120500ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_400" [label="getDateSearchOption()\nmin: 167ns, avg: 167ns, max: 167ns,\ntotal: 167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_87" {
+ label = "<<assembly component>>\n@87:pt.ist.socialsoftware.edition.search.feature.options.PublicationSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_399" [label="<init>(..)\nmin: 8083ns, avg: 8083ns, max: 8083ns,\ntotal: 8083ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_401" [label="search(..)\nmin: 275334ns, avg: 275334ns, max: 275334ns,\ntotal: 275334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_403" [label="verifiesSearchOption(..)\nmin: 500ns, avg: 2538ns, max: 14708ns,\ntotal: 104042ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_404" [label="hasDate()\nmin: 1750ns, avg: 1750ns, max: 1750ns,\ntotal: 1750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_88" {
+ label = "<<assembly component>>\n@88:pt.ist.socialsoftware.edition.text.domain.NullHeteronym";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_413" [label="getName()\nmin: 41ns, avg: 68ns, max: 125ns,\ntotal: 751ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_89" {
+ label = "<<assembly component>>\n@89:pt.ist.socialsoftware.edition.text.api.dto.HeteronymDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_412" [label="<init>(..)\nmin: 500ns, avg: 1082ns, max: 6083ns,\ntotal: 34625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_414" [label="setName(..)\nmin: 0ns, avg: 39ns, max: 83ns,\ntotal: 1251ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_416" [label="setXmlId(..)\nmin: 0ns, avg: 35ns, max: 84ns,\ntotal: 1126ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_418" [label="getName()\nmin: 0ns, avg: 31ns, max: 84ns,\ntotal: 999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_419" [label="getXmlId()\nmin: 83ns, avg: 153ns, max: 250ns,\ntotal: 458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_90" {
+ label = "<<assembly component>>\n@90:pt.ist.socialsoftware.edition.text.domain.Heteronym_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_91" {
+ label = "<<assembly component>>\n@91:pt.ist.socialsoftware.edition.search.api.dto.HeteronymSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_420" [label="<init>(..)\nmin: 75833ns, avg: 75833ns, max: 75833ns,\ntotal: 75833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_421" [label="createSearchOption()\nmin: 158916ns, avg: 158916ns, max: 158916ns,\ntotal: 158916ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_423" [label="getXmlId4Heteronym()\nmin: 125ns, avg: 125ns, max: 125ns,\ntotal: 125ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_92" {
+ label = "<<assembly component>>\n@92:pt.ist.socialsoftware.edition.search.feature.options.HeteronymSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_422" [label="<init>(..)\nmin: 2667ns, avg: 2667ns, max: 2667ns,\ntotal: 2667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_424" [label="search(..)\nmin: 297417ns, avg: 297417ns, max: 297417ns,\ntotal: 297417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_426" [label="verifiesSearchOption(..)\nmin: 375ns, avg: 623ns, max: 6208ns,\ntotal: 25542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_93" {
+ label = "<<assembly component>>\n@93:pt.ist.socialsoftware.edition.search.api.dto.TaxonomySearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_433" [label="<init>(..)\nmin: 28416ns, avg: 28416ns, max: 28416ns,\ntotal: 28416ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_434" [label="createSearchOption()\nmin: 246458ns, avg: 246458ns, max: 246458ns,\ntotal: 246458ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_436" [label="getTags()\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_94" {
+ label = "<<assembly component>>\n@94:pt.ist.socialsoftware.edition.search.feature.options.TaxonomySearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_435" [label="<init>(..)\nmin: 5792ns, avg: 5792ns, max: 5792ns,\ntotal: 5792ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_437" [label="search(..)\nmin: 963541ns, avg: 963541ns, max: 963541ns,\ntotal: 963541ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_440" [label="verifiesSearchOption(..)\nmin: 309000ns, avg: 309000ns, max: 309000ns,\ntotal: 309000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_95" {
+ label = "<<assembly component>>\n@95:pt.ist.socialsoftware.edition.ldod.frontend.utils.controller.LdoDExceptionHandler";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_445" [label="handleException(..)\nmin: 482583ns, avg: 482583ns, max: 482583ns,\ntotal: 482583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_96" {
+ label = "<<assembly component>>\n@96:pt.ist.socialsoftware.edition.virtual.domain.Taxonomy_Base";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_97" {
+ label = "<<assembly component>>\n@97:pt.ist.socialsoftware.edition.virtual.api.dto.VirtualEditionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_454" [label="<init>(..)\nmin: 23208ns, avg: 38049ns, max: 100667ns,\ntotal: 989286ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_465" [label="getAcronym()\nmin: 0ns, avg: 45ns, max: 166ns,\ntotal: 1166ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_466" [label="getTitle()\nmin: 41ns, avg: 42ns, max: 42ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_98" {
+ label = "<<assembly component>>\n@98:pt.ist.socialsoftware.edition.search.api.dto.VirtualEditionSearchOptionDto";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_467" [label="<init>(..)\nmin: 3625ns, avg: 3625ns, max: 3625ns,\ntotal: 3625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_469" [label="setUsername(..)\nmin: 292ns, avg: 292ns, max: 292ns,\ntotal: 292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_470" [label="createSearchOption()\nmin: 124583ns, avg: 124583ns, max: 124583ns,\ntotal: 124583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_472" [label="isInclusion()\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 83ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_473" [label="getVirtualEditionAcronym()\nmin: 84ns, avg: 84ns, max: 84ns,\ntotal: 84ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_474" [label="getUsername()\nmin: 0ns, avg: 0ns, max: 0ns,\ntotal: 0ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_99" {
+ label = "<<assembly component>>\n@99:pt.ist.socialsoftware.edition.search.feature.options.VirtualEditionSearchOption";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_471" [label="<init>(..)\nmin: 4167ns, avg: 4167ns, max: 4167ns,\ntotal: 4167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_475" [label="search(..)\nmin: 400459ns, avg: 400459ns, max: 400459ns,\ntotal: 400459ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_478" [label="verifiesSearchOption(..)\nmin: 99041ns, avg: 248521ns, max: 621541ns,\ntotal: 2982249ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+depNode_0->depNode_1[label=83, style="solid", arrowhead="open", color="#000000"]
+depNode_1->depNode_2[label=83, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_385[label=28, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_386[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_388[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_389[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_134[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_390[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_7[label=240, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_136[label=20, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_9[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_137[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_138[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_394[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_11[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_12[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_141[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_397[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_276[label=656, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_277[label=318, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_405[label=27, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_278[label=291, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_406[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_279[label=276, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_32[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_33[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_34[label=21, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_291[label=248, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_35[label=21, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_292[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_420[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_40[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_41[label=24, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_42[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_43[label=62, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_427[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_44[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_433[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_445[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_446[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_322[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_467[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_353[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_354[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_355[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_356[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_357[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_486[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_359[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_360[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_106[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_495[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_112[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_496[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_113[label=329, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_243[label=716, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_117[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_118[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_246[label=1276, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_119[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_120[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_121[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_122[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_123[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_6->depNode_253[label=318, style="solid", arrowhead="open", color="#000000"]
+depNode_9->depNode_10[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_12->depNode_13[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_14[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_16[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_22[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_15[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_22->depNode_23[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_22->depNode_24[label=84, style="solid", arrowhead="open", color="#000000"]
+depNode_35->depNode_36[label=21, style="solid", arrowhead="open", color="#000000"]
+depNode_41->depNode_10[label=24, style="solid", arrowhead="open", color="#000000"]
+depNode_44->depNode_45[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_44->depNode_109[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_45->depNode_46[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_46->depNode_48[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_46->depNode_47[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_49[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_50[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_51[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_52[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_119[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_120[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_106[label=15, style="solid", arrowhead="open", color="#000000"]
+depNode_48->depNode_107[label=20, style="solid", arrowhead="open", color="#000000"]
+depNode_52->depNode_53[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_52->depNode_56[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_53->depNode_54[label=517, style="solid", arrowhead="open", color="#000000"]
+depNode_53->depNode_55[label=517, style="solid", arrowhead="open", color="#000000"]
+depNode_56->depNode_57[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_68[label=15, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_58[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_62[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_58->depNode_59[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_59->depNode_60[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_59->depNode_61[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_62->depNode_64[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_62->depNode_67[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_62->depNode_63[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_65[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_65->depNode_66[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_70[label=1725, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_71[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_74[label=1725, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_75[label=3069, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_77[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_80[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_81[label=3069, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_84[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_85[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_86[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_88[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_90[label=1404, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_91[label=2808, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_93[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_96[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_99[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_104[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_68->depNode_54[label=1725, style="solid", arrowhead="open", color="#000000"]
+depNode_77->depNode_78[label=2046, style="solid", arrowhead="open", color="#000000"]
+depNode_80->depNode_77[label=1023, style="solid", arrowhead="open", color="#000000"]
+depNode_81->depNode_82[label=3129, style="solid", arrowhead="open", color="#000000"]
+depNode_93->depNode_94[label=702, style="solid", arrowhead="open", color="#000000"]
+depNode_107->depNode_108[label=20, style="solid", arrowhead="open", color="#000000"]
+depNode_109->depNode_54[label=19, style="solid", arrowhead="open", color="#000000"]
+depNode_109->depNode_55[label=19, style="solid", arrowhead="open", color="#000000"]
+depNode_109->depNode_110[label=19, style="solid", arrowhead="open", color="#000000"]
+depNode_109->depNode_111[label=19, style="solid", arrowhead="open", color="#000000"]
+depNode_111->depNode_53[label=19, style="solid", arrowhead="open", color="#000000"]
+depNode_113->depNode_114[label=329, style="solid", arrowhead="open", color="#000000"]
+depNode_114->depNode_115[label=329, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_132[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_133[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_123->depNode_124[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_124->depNode_125[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_125->depNode_82[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_125->depNode_131[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_125->depNode_126[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_126->depNode_130[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_131->depNode_54[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_138->depNode_139[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_138->depNode_140[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_263[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_264[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_265[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_266[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_267[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_268[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_269[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_109[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_142[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_270[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_271[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_272[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_145[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_273[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_274[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_141->depNode_147[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_142->depNode_143[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_143->depNode_144[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_143->depNode_7[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_145->depNode_146[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_146->depNode_147[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_146->depNode_149[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_146->depNode_47[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_160[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_256[label=230, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_257[label=230, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_258[label=230, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_404[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_150[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_262[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_382[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_149->depNode_383[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_147[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_151[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_154->depNode_50[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_154->depNode_155[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_155->depNode_156[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_155->depNode_157[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_155->depNode_158[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_155->depNode_159[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_160->depNode_161[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_160->depNode_162[label=34, style="solid", arrowhead="open", color="#000000"]
+depNode_160->depNode_163[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_401[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_475[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_164[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_165[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_424[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_492[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_241[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_371[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_437[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_252[label=318, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_255[label=16, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_53[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_166[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_174[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_166->depNode_167[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_167->depNode_82[label=21, style="solid", arrowhead="open", color="#000000"]
+depNode_167->depNode_171[label=126, style="solid", arrowhead="open", color="#000000"]
+depNode_167->depNode_173[label=126, style="solid", arrowhead="open", color="#000000"]
+depNode_171->depNode_54[label=126, style="solid", arrowhead="open", color="#000000"]
+depNode_171->depNode_172[label=126, style="solid", arrowhead="open", color="#000000"]
+depNode_174->depNode_175[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_175->depNode_176[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_175->depNode_177[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_175->depNode_202[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_175->depNode_219[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_182->depNode_193[label=780, style="solid", arrowhead="open", color="#000000"]
+depNode_182->depNode_186[label=78, style="solid", arrowhead="open", color="#000000"]
+depNode_193->depNode_194[label=1560, style="solid", arrowhead="open", color="#000000"]
+depNode_194->depNode_196[label=2250, style="solid", arrowhead="open", color="#000000"]
+depNode_194->depNode_199[label=2250, style="solid", arrowhead="open", color="#000000"]
+depNode_196->depNode_197[label=2250, style="solid", arrowhead="open", color="#000000"]
+depNode_199->depNode_197[label=2250, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_212[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_213[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_55[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_216[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_217[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_218[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_203[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_202->depNode_204[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_203->depNode_194[label=486, style="solid", arrowhead="open", color="#000000"]
+depNode_203->depNode_204[label=486, style="solid", arrowhead="open", color="#000000"]
+depNode_204->depNode_106[label=690, style="solid", arrowhead="open", color="#000000"]
+depNode_204->depNode_205[label=690, style="solid", arrowhead="open", color="#000000"]
+depNode_205->depNode_208[label=894, style="solid", arrowhead="open", color="#000000"]
+depNode_205->depNode_54[label=894, style="solid", arrowhead="open", color="#000000"]
+depNode_208->depNode_209[label=1142, style="solid", arrowhead="open", color="#000000"]
+depNode_208->depNode_68[label=1130, style="solid", arrowhead="open", color="#000000"]
+depNode_209->depNode_82[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_213->depNode_54[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_213->depNode_214[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_214->depNode_209[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_216->depNode_203[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_217->depNode_194[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_221->depNode_222[label=120, style="solid", arrowhead="open", color="#000000"]
+depNode_221->depNode_223[label=120, style="solid", arrowhead="open", color="#000000"]
+depNode_223->depNode_112[label=580, style="solid", arrowhead="open", color="#000000"]
+depNode_223->depNode_115[label=120, style="solid", arrowhead="open", color="#000000"]
+depNode_223->depNode_68[label=580, style="solid", arrowhead="open", color="#000000"]
+depNode_238->depNode_239[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_239->depNode_240[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_239->depNode_205[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_245->depNode_53[label=290, style="solid", arrowhead="open", color="#000000"]
+depNode_245->depNode_246[label=350, style="solid", arrowhead="open", color="#000000"]
+depNode_245->depNode_247[label=290, style="solid", arrowhead="open", color="#000000"]
+depNode_245->depNode_249[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_247->depNode_248[label=290, style="solid", arrowhead="open", color="#000000"]
+depNode_248->depNode_209[label=1033, style="solid", arrowhead="open", color="#000000"]
+depNode_248->depNode_90[label=897, style="solid", arrowhead="open", color="#000000"]
+depNode_248->depNode_75[label=136, style="solid", arrowhead="open", color="#000000"]
+depNode_249->depNode_250[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_250->depNode_209[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_252->depNode_253[label=1356, style="solid", arrowhead="open", color="#000000"]
+depNode_276->depNode_248[label=656, style="solid", arrowhead="open", color="#000000"]
+depNode_279->depNode_280[label=276, style="solid", arrowhead="open", color="#000000"]
+depNode_280->depNode_281[label=276, style="solid", arrowhead="open", color="#000000"]
+depNode_281->depNode_82[label=276, style="solid", arrowhead="open", color="#000000"]
+depNode_283->depNode_284[label=672, style="solid", arrowhead="open", color="#000000"]
+depNode_291->depNode_208[label=248, style="solid", arrowhead="open", color="#000000"]
+depNode_291->depNode_117[label=236, style="solid", arrowhead="open", color="#000000"]
+depNode_291->depNode_54[label=248, style="solid", arrowhead="open", color="#000000"]
+depNode_292->depNode_293[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_320[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_352[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_321[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_322[label=9, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_387[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_294[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_295[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_297[label=14, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_298[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_299[label=46, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_300[label=22, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_339[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_340[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_341[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_348[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_221[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_349[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_350[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_319[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_293->depNode_351[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_298->depNode_167[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_300->depNode_301[label=22, style="solid", arrowhead="open", color="#000000"]
+depNode_301->depNode_209[label=48, style="solid", arrowhead="open", color="#000000"]
+depNode_301->depNode_302[label=48, style="solid", arrowhead="open", color="#000000"]
+depNode_302->depNode_78[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_302->depNode_304[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_322->depNode_323[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_323->depNode_82[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_332->depNode_336[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_332->depNode_338[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_332->depNode_334[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_357->depNode_358[label=8, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_369[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_370[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_362[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_363[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_361->depNode_364[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_364->depNode_50[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_364->depNode_365[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_365->depNode_368[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_365->depNode_366[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_365->depNode_367[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_53[label=58, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_246[label=80, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_375[label=58, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_376[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_393[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_379[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_380[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_374->depNode_381[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_375->depNode_248[label=87, style="solid", arrowhead="open", color="#000000"]
+depNode_376->depNode_377[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_377->depNode_209[label=46, style="solid", arrowhead="open", color="#000000"]
+depNode_379->depNode_301[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_380->depNode_321[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_381->depNode_53[label=35, style="solid", arrowhead="open", color="#000000"]
+depNode_383->depNode_384[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_385->depNode_377[label=28, style="solid", arrowhead="open", color="#000000"]
+depNode_386->depNode_387[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_386->depNode_301[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_388->depNode_321[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_388->depNode_301[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_389->depNode_293[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_369[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_392[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_362[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_363[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_391->depNode_364[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_393->depNode_387[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_320[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_322[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_339[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_340[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_341[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_298[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_395[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_349[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_350[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_319[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_394->depNode_351[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_395->depNode_396[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_396->depNode_115[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_396->depNode_302[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_398->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_398->depNode_399[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_399->depNode_400[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_399->depNode_364[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_243[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_53[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_246[label=35, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_375[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_376[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_403->depNode_381[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_404->depNode_384[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_406->depNode_418[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_406->depNode_419[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_406->depNode_407[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_407->depNode_408[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_408->depNode_82[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_408->depNode_412[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_412->depNode_416[label=32, style="solid", arrowhead="open", color="#000000"]
+depNode_412->depNode_413[label=11, style="solid", arrowhead="open", color="#000000"]
+depNode_412->depNode_414[label=32, style="solid", arrowhead="open", color="#000000"]
+depNode_421->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_421->depNode_422[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_422->depNode_423[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_426->depNode_53[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_427->depNode_418[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_427->depNode_428[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_428->depNode_209[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_428->depNode_412[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_434->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_434->depNode_435[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_435->depNode_436[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_440->depNode_53[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_442->depNode_443[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_443->depNode_176[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_443->depNode_444[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_446->depNode_465[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_446->depNode_466[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_446->depNode_142[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_446->depNode_447[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_447->depNode_448[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_448->depNode_176[label=13, style="solid", arrowhead="open", color="#000000"]
+depNode_448->depNode_449[label=13, style="solid", arrowhead="open", color="#000000"]
+depNode_448->depNode_454[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_449->depNode_452[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_452[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_455[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_456[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_457[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_461[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_463[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_464[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_454->depNode_55[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_464->depNode_182[label=26, style="solid", arrowhead="open", color="#000000"]
+depNode_470->depNode_50[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_470->depNode_471[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_471->depNode_472[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_471->depNode_473[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_471->depNode_474[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_478->depNode_465[label=24, style="solid", arrowhead="open", color="#000000"]
+depNode_478->depNode_53[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_478->depNode_479[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_479->depNode_448[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_481->depNode_482[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_482->depNode_176[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_482->depNode_182[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_482->depNode_444[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_322[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_339[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_340[label=9, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_341[label=9, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_487[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_298[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_395[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_221[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_349[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_350[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_486->depNode_351[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_487->depNode_488[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_488->depNode_209[label=64, style="solid", arrowhead="open", color="#000000"]
+depNode_488->depNode_332[label=21, style="solid", arrowhead="open", color="#000000"]
+depNode_495->depNode_339[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_495->depNode_488[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_496->depNode_301[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_146->depNode_469[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_154[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_361[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_364[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_391[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_398[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_421[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_434[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_150->depNode_470[label=17, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_243[label=410, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_245[label=290, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_253[label=318, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_374[label=58, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_381[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_403[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_426[label=41, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_440[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_163->depNode_478[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_106[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_108[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_118[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_119[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_120[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_221[label=102, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_230[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_231[label=493, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_233[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_234[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_235[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_236[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_237[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_165->depNode_238[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_177->depNode_182[label=34, style="solid", arrowhead="open", color="#000000"]
+depNode_2->depNode_6[label=83, style="solid", arrowhead="open", color="#000000"]
+depNode_214->depNode_71[label=204, style="solid", arrowhead="open", color="#000000"]
+depNode_250->depNode_81[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_250->depNode_84[label=60, style="solid", arrowhead="open", color="#000000"]
+depNode_281->depNode_283[label=672, style="solid", arrowhead="open", color="#000000"]
+depNode_322->depNode_332[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_35->depNode_38[label=42, style="solid", arrowhead="open", color="#000000"]
+depNode_428->depNode_430[label=29, style="solid", arrowhead="open", color="#000000"]
+depNode_440->depNode_246[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_440->depNode_442[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_478->depNode_246[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_478->depNode_481[label=18, style="solid", arrowhead="open", color="#000000"]
+depNode_482->depNode_203[label=78, style="solid", arrowhead="open", color="#000000"]
+depNode_488->depNode_491[label=64, style="solid", arrowhead="open", color="#000000"]
+}
