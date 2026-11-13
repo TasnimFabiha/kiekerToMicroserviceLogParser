@@ -1,0 +1,117 @@
+digraph G {
+ rankdir=LR;
+"depNode_0" [label="'Entry'",shape="none"]
+subgraph "cluster_component_1" {
+ label = "<<assembly component>>\n@1:kieker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_2" {
+ label = "<<assembly component>>\n@2:org.springframework.samples.petclinic.TestTagLoggingFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_3" {
+ label = "<<assembly component>>\n@3:org.springframework.samples.petclinic.model.Vets";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_5" [label="<init>()\nmin: 833ns, avg: 1400ns, max: 2959ns,\ntotal: 7000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_6" [label="getVetList()\nmin: 250ns, avg: 1433ns, max: 7250ns,\ntotal: 14334ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_4" {
+ label = "<<assembly component>>\n@4:org.springframework.samples.petclinic.model.BaseEntity";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_9" [label="<init>()\nmin: 125ns, avg: 287ns, max: 1250ns,\ntotal: 2583ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_21" [label="getId()\nmin: 42ns, avg: 145ns, max: 709ns,\ntotal: 6377ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_22" [label="isNew()\nmin: 83ns, avg: 121ns, max: 167ns,\ntotal: 1333ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_5" {
+ label = "<<assembly component>>\n@5:org.springframework.samples.petclinic.model.Person";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_10" [label="<init>()\nmin: 83ns, avg: 111ns, max: 208ns,\ntotal: 666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_14" [label="getFirstName()\nmin: 83ns, avg: 140ns, max: 667ns,\ntotal: 5878ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_15" [label="getLastName()\nmin: 42ns, avg: 100ns, max: 250ns,\ntotal: 4212ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_6" {
+ label = "<<assembly component>>\n@6:org.springframework.samples.petclinic.model.Vet";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_11" [label="<init>()\nmin: 83ns, avg: 104ns, max: 167ns,\ntotal: 625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_16" [label="getSpecialties()\nmin: 1041ns, avg: 17493ns, max: 350458ns,\ntotal: 524789ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_17" [label="getSpecialtiesInternal()\nmin: 83ns, avg: 127ns, max: 875ns,\ntotal: 6879ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_18" [label="getNrOfSpecialties()\nmin: 458ns, avg: 1323ns, max: 6875ns,\ntotal: 31752ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_7" {
+ label = "<<assembly component>>\n@7:org.springframework.samples.petclinic.model.NamedEntity";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_12" [label="<init>()\nmin: 83ns, avg: 83ns, max: 83ns,\ntotal: 249ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_19" [label="getName()\nmin: 41ns, avg: 106ns, max: 375ns,\ntotal: 4750ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_8" {
+ label = "<<assembly component>>\n@8:org.springframework.samples.petclinic.model.Specialty";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_13" [label="<init>()\nmin: 83ns, avg: 83ns, max: 84ns,\ntotal: 250ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_9" {
+ label = "<<assembly component>>\n@9:org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_8" [label="findAll()\nmin: 1818791ns, avg: 1818791ns, max: 1818791ns,\ntotal: 1818791ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_10" {
+ label = "<<assembly component>>\n@10:org.springframework.samples.petclinic.service.ClinicServiceImpl";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_7" [label="findVets()\nmin: 1856209ns, avg: 1856209ns, max: 1856209ns,\ntotal: 1856209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_11" {
+ label = "<<assembly component>>\n@11:org.springframework.samples.petclinic.web.VetController";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_3" [label="showVetList(..)\nmin: 266791ns, avg: 1851555ns, max: 4662375ns,\ntotal: 5554666ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_4" [label="getVets()\nmin: 246917ns, avg: 1205217ns, max: 4647458ns,\ntotal: 6026084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_20" [label="showJsonVetList()\nmin: 253667ns, avg: 253667ns, max: 253667ns,\ntotal: 253667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_23" [label="showXmlVetList()\nmin: 249417ns, avg: 249417ns, max: 249417ns,\ntotal: 249417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+depNode_3->depNode_4[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_4->depNode_5[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_4->depNode_6[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_4->depNode_7[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_7->depNode_8[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_8->depNode_9[label=9, style="solid", arrowhead="open", color="#000000"]
+depNode_8->depNode_10[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_8->depNode_11[label=6, style="solid", arrowhead="open", color="#000000"]
+depNode_8->depNode_12[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_8->depNode_13[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_16->depNode_17[label=30, style="solid", arrowhead="open", color="#000000"]
+depNode_16->depNode_19[label=10, style="solid", arrowhead="open", color="#000000"]
+depNode_18->depNode_17[label=24, style="solid", arrowhead="open", color="#000000"]
+depNode_20->depNode_4[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_23->depNode_4[label=1, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_14[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_15[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_16[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_18[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_19[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_20[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_21[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_22[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_23[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_3[label=7, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_6[label=7, style="solid", arrowhead="open", color="#000000"]
+}

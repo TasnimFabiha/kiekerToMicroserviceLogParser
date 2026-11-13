@@ -1,0 +1,215 @@
+digraph G {
+ rankdir=LR;
+"depNode_0" [label="'Entry'",shape="none"]
+subgraph "cluster_component_1" {
+ label = "<<assembly component>>\n@1:org.mybatis.jpetstore.web.actions.AbstractActionBean";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_2" [label="getContext()\nmin: 0ns, avg: 211ns, max: 16542ns,\ntotal: 38801ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_3" [label="setContext(..)\nmin: 125ns, avg: 355ns, max: 958ns,\ntotal: 6747ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_43" [label="<init>()\nmin: 125ns, avg: 250ns, max: 500ns,\ntotal: 1000ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_2" {
+ label = "<<assembly component>>\n@2:org.mybatis.jpetstore.web.actions.CatalogActionBean";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_4" [label="viewMain()\nmin: 1000ns, avg: 1327ns, max: 1667ns,\ntotal: 7959ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_7" [label="getKeyword()\nmin: 83ns, avg: 296ns, max: 625ns,\ntotal: 5625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_12" [label="setCategoryId(..)\nmin: 208ns, avg: 1033ns, max: 4000ns,\ntotal: 5167ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_13" [label="viewCategory()\nmin: 536875ns, avg: 1092000ns, max: 1522041ns,\ntotal: 5459999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_25" [label="getCategory()\nmin: 83ns, avg: 625ns, max: 2291ns,\ntotal: 3124ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_27" [label="getProductList()\nmin: 125ns, avg: 399ns, max: 1583ns,\ntotal: 2794ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_30" [label="setProductId(..)\nmin: 125ns, avg: 1167ns, max: 4125ns,\ntotal: 4668ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_31" [label="viewProduct()\nmin: 466833ns, avg: 1841073ns, max: 3579708ns,\ntotal: 7364290ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_44" [label="<init>()\nmin: 83ns, avg: 157ns, max: 375ns,\ntotal: 626ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_45" [label="getProduct()\nmin: 0ns, avg: 202ns, max: 2542ns,\ntotal: 5665ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_47" [label="getItemList()\nmin: 84ns, avg: 729ns, max: 2250ns,\ntotal: 2917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_55" [label="setItemId(..)\nmin: 250ns, avg: 2646ns, max: 5041ns,\ntotal: 5291ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_56" [label="viewItem()\nmin: 886042ns, avg: 930209ns, max: 974375ns,\ntotal: 1860417ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_60" [label="getItem()\nmin: 0ns, avg: 123ns, max: 916ns,\ntotal: 2708ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_62" [label="setKeyword(..)\nmin: 250ns, avg: 2521ns, max: 4791ns,\ntotal: 5041ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_63" [label="searchProducts()\nmin: 533041ns, avg: 1419687ns, max: 2306333ns,\ntotal: 2839374ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_3" {
+ label = "<<assembly component>>\n@3:org.mybatis.jpetstore.domain.Account";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_6" [label="getUsername()\nmin: 41ns, avg: 163ns, max: 583ns,\ntotal: 10247ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_9" [label="getFirstName()\nmin: 83ns, avg: 195ns, max: 500ns,\ntotal: 1168ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_10" [label="isBannerOption()\nmin: 83ns, avg: 184ns, max: 625ns,\ntotal: 3501ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_11" [label="getBannerName()\nmin: 42ns, avg: 145ns, max: 291ns,\ntotal: 2751ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_4" {
+ label = "<<assembly component>>\n@4:org.mybatis.jpetstore.web.actions.AccountActionBean";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_5" [label="isAuthenticated()\nmin: 583ns, avg: 2964ns, max: 10792ns,\ntotal: 186755ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_8" [label="getAccount()\nmin: 41ns, avg: 100ns, max: 250ns,\ntotal: 4419ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_5" {
+ label = "<<assembly component>>\n@5:org.mybatis.jpetstore.TestTagLoggingFilter";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+}
+subgraph "cluster_component_6" {
+ label = "<<assembly component>>\n@6:org.mybatis.jpetstore.domain.Product";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_15" [label="<init>()\nmin: 41ns, avg: 250ns, max: 1834ns,\ntotal: 6002ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_16" [label="setProductId(..)\nmin: 41ns, avg: 179ns, max: 584ns,\ntotal: 4292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_17" [label="setName(..)\nmin: 41ns, avg: 90ns, max: 208ns,\ntotal: 2166ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_18" [label="setDescription(..)\nmin: 0ns, avg: 75ns, max: 209ns,\ntotal: 1796ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_19" [label="setCategoryId(..)\nmin: 41ns, avg: 75ns, max: 208ns,\ntotal: 1794ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_28" [label="getProductId()\nmin: 41ns, avg: 127ns, max: 1458ns,\ntotal: 6079ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_29" [label="getName()\nmin: 41ns, avg: 146ns, max: 917ns,\ntotal: 4667ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_46" [label="getCategoryId()\nmin: 0ns, avg: 261ns, max: 1250ns,\ntotal: 2084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_59" [label="getDescription()\nmin: 42ns, avg: 594ns, max: 2000ns,\ntotal: 2376ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_7" {
+ label = "<<assembly component>>\n@7:org.mybatis.jpetstore.service.CatalogService";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_14" [label="getProductListByCategory(..)\nmin: 190458ns, avg: 563575ns, max: 916292ns,\ntotal: 2817876ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_20" [label="getCategory(..)\nmin: 255625ns, avg: 515567ns, max: 671250ns,\ntotal: 2577833ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_32" [label="getItemListByProduct(..)\nmin: 388375ns, avg: 1472802ns, max: 3071000ns,\ntotal: 5891208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_42" [label="getProduct(..)\nmin: 71250ns, avg: 349656ns, max: 512833ns,\ntotal: 1398624ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_57" [label="getItem(..)\nmin: 865500ns, avg: 915917ns, max: 966334ns,\ntotal: 1831834ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_64" [label="searchProductList(..)\nmin: 527459ns, avg: 1408542ns, max: 2289625ns,\ntotal: 2817084ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_8" {
+ label = "<<assembly component>>\n@8:org.mybatis.jpetstore.domain.Category";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_21" [label="<init>()\nmin: 166ns, avg: 500ns, max: 958ns,\ntotal: 1999ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_22" [label="setCategoryId(..)\nmin: 125ns, avg: 802ns, max: 2542ns,\ntotal: 3208ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_23" [label="setName(..)\nmin: 41ns, avg: 396ns, max: 1292ns,\ntotal: 1582ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_24" [label="setDescription(..)\nmin: 84ns, avg: 386ns, max: 1125ns,\ntotal: 1542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_26" [label="getName()\nmin: 83ns, avg: 334ns, max: 1167ns,\ntotal: 1668ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+subgraph "cluster_component_9" {
+ label = "<<assembly component>>\n@9:org.mybatis.jpetstore.domain.Item";
+ shape = "box";
+ style = "filled";
+ fillcolor = "white";
+"depNode_33" [label="<init>()\nmin: 125ns, avg: 387ns, max: 1209ns,\ntotal: 2709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_34" [label="getProduct()\nmin: 0ns, avg: 104ns, max: 1750ns,\ntotal: 7873ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_35" [label="setItemId(..)\nmin: 83ns, avg: 589ns, max: 2833ns,\ntotal: 4124ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_36" [label="setListPrice(..)\nmin: 41ns, avg: 303ns, max: 1125ns,\ntotal: 2124ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_37" [label="setUnitCost(..)\nmin: 42ns, avg: 185ns, max: 834ns,\ntotal: 1295ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_38" [label="setSupplierId(..)\nmin: 209ns, avg: 560ns, max: 1625ns,\ntotal: 3917ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_39" [label="setProduct(..)\nmin: 41ns, avg: 262ns, max: 1000ns,\ntotal: 1834ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_40" [label="setStatus(..)\nmin: 41ns, avg: 268ns, max: 1167ns,\ntotal: 1877ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_41" [label="setAttribute1(..)\nmin: 42ns, avg: 292ns, max: 1334ns,\ntotal: 2043ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_48" [label="getItemId()\nmin: 42ns, avg: 199ns, max: 1667ns,\ntotal: 4378ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_49" [label="getAttribute1()\nmin: 83ns, avg: 276ns, max: 917ns,\ntotal: 2209ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_50" [label="getAttribute2()\nmin: 0ns, avg: 214ns, max: 958ns,\ntotal: 1709ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_51" [label="getAttribute3()\nmin: 41ns, avg: 203ns, max: 917ns,\ntotal: 1625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_52" [label="getAttribute4()\nmin: 41ns, avg: 193ns, max: 792ns,\ntotal: 1542ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_53" [label="getAttribute5()\nmin: 41ns, avg: 162ns, max: 875ns,\ntotal: 1292ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_54" [label="getListPrice()\nmin: 83ns, avg: 187ns, max: 667ns,\ntotal: 1499ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_58" [label="setQuantity(..)\nmin: 167ns, avg: 1313ns, max: 2458ns,\ntotal: 2625ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+"depNode_61" [label="getQuantity()\nmin: 83ns, avg: 479ns, max: 2167ns,\ntotal: 2875ns",shape="oval",style="filled",color="#000000",fillcolor="white"]
+}
+depNode_5->depNode_6[label=63, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_20[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_13->depNode_14[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_16[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_17[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_18[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_19[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_14->depNode_15[label=12, style="solid", arrowhead="open", color="#000000"]
+depNode_20->depNode_21[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_20->depNode_22[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_20->depNode_23[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_20->depNode_24[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_31->depNode_32[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_31->depNode_42[label=4, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_33[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_34[label=44, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_35[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_36[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_37[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_38[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_39[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_40[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_41[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_15[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_16[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_17[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_18[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_32->depNode_19[label=5, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_16[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_17[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_18[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_19[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_42->depNode_15[label=3, style="solid", arrowhead="open", color="#000000"]
+depNode_56->depNode_34[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_56->depNode_57[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_33[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_34[label=24, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_35[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_36[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_37[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_38[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_39[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_40[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_41[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_15[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_16[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_17[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_18[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_19[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_57->depNode_58[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_63->depNode_64[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_16[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_17[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_18[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_19[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_64->depNode_15[label=2, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_10[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_11[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_12[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_13[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_2[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_25[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_26[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_27[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_28[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_29[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_3[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_30[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_31[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_34[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_4[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_43[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_44[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_45[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_46[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_47[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_48[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_49[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_5[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_50[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_51[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_52[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_53[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_54[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_55[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_56[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_59[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_60[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_61[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_62[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_63[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_7[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_8[label=23, style="solid", arrowhead="open", color="#000000"]
+depNode_0->depNode_9[label=23, style="solid", arrowhead="open", color="#000000"]
+}
